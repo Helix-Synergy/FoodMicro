@@ -85,7 +85,7 @@ const Navbar = () => {
           /> */}
           <img
             src={logo}
-            alt="Techmatics Logo"
+            alt="FoodMicro Logo"
             className="rounded-full object-cover transition-all duration-300"
             loading="lazy"
             style={{
@@ -125,7 +125,7 @@ const Navbar = () => {
               to={item.link}
               className={`hover-underline-animation text-black hover:text-[#6D6D6D] transition ${
                 location.pathname === item.link
-                  ? "border-[#6D6D6D]"
+                  ? "border-[#6D28D9]"
                   : "border-transparent"
               }`}
               style={{
@@ -149,7 +149,7 @@ const Navbar = () => {
             <div className="flex flex-col items-start justify-center">
               <div
                 id="google_translate_element"
-                className="font-sm text-[#6D6D6D]"
+                className="font-sm text-[#6D28D9]"
               ></div>
             </div>
           </div>
@@ -167,7 +167,7 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="lg:hidden bg-[#6D6D6D] px-4 pb-4 space-y-4 shadow-md">
+        <div className="lg:hidden bg-[#6D28D9] px-4 pb-4 space-y-4 shadow-md">
           {nav_links.map((item, index) => (
             <Link
               key={index}
@@ -182,7 +182,7 @@ const Navbar = () => {
             <div id="google_translate_element" className="mt-2"></div>
             <Link
               to="https://helixconferences.com/buy-a-ticket"
-              className="block w-full border border-white text-center py-2 rounded-full text-white hover:bg-white hover:text-[#6D6D6D] transition"
+              className="block w-full border border-white text-center py-2 rounded-full text-white hover:bg-white hover:text-[#6D28D9] transition"
             >
               Register
             </Link>

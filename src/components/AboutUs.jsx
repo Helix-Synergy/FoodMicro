@@ -9,7 +9,7 @@ const AboutUs = () => {
       <div className="flex justify-center">
         <img
           src={about_img}
-          alt="Dental Conference 2025"
+          alt="Dental Conference 2026"
           loading="lazy"
           className="h-[80%] md:max-h-[100%] w-auto md:w-[80vh] md:mx-16 rounded-2xl object-cover"
         />

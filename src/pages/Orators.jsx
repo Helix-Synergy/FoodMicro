@@ -3,7 +3,7 @@ import { orators } from "../utils/Orators/orators";
 import OraterCard from "../components/ui/OraterCard";
 import { Link } from "react-router-dom";
 import { banner_style } from "../Styles/styles";
-
+import orators1 from "../assets/Images1/orators.png"
 const Orators = () => {
   return (
     <section className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
@@ -11,7 +11,7 @@ const Orators = () => {
  <div
   className={`${banner_style} w-full mx-auto orators-banner`}
   style={{
-    backgroundImage: "url('https://techmatics.helixconferences.com/wp-content/uploads/2024/12/tech-5-1.webp')",
+    backgroundImage: `url(${orators1})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
   }}

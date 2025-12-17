@@ -112,13 +112,13 @@ const AboutPublicHealth = () => {
      <div
   className={`${banner_style} w-full mx-auto about-banner`}
   style={{
-    backgroundImage: "url('https://images.unsplash.com/photo-1531545514256-b1400bc00f31?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YWJvdXQlMjB1c3xlbnwwfHwwfHx8MA%3D%3D')",
+    backgroundImage: "url('https://housing.com/news/wp-content/uploads/2023/11/networking-companies-f-compressed.jpg')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   }}
 >
-        <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4 z-10">
+        <h1 className="text-black-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4 z-10">
           {data.event.title}
         </h1>
       </div>

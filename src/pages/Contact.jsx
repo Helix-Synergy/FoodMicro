@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import axios from "axios";
 import { banner_style } from "../Styles/styles";
-
+import contact from "../assets/Images1/contact.png"
 const ContactForm = () => {
   const [form, setForm] = useState({
     firstName: "",
@@ -167,7 +167,7 @@ const ContactForm = () => {
    <div
   className={`${banner_style} w-full mx-auto event-partners-banner`}
   style={{
-    backgroundImage: "url(https://starhospitals.in/build/assets/contact-caf2cbb3.webp)",
+    backgroundImage: `url(${contact})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
   }}

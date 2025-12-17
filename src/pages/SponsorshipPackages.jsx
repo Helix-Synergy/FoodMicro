@@ -6,7 +6,7 @@ import gold from "../assets/badges/gold.png"
 import platinum from "../assets/badges/platinum.png"
 import exhibitor from "../assets/badges/exhibitor.png"
 import { banner_style } from "../Styles/styles";
-
+import event from "../assets/Images1/Eventpartners.png"
 const sponsorshipPackages = [
   {
     type: "Silver Sponsor",
@@ -90,7 +90,7 @@ const SponsorshipPackages = () => {
     <div
   className={`${banner_style} w-full mx-auto event-partners-banner`}
   style={{
-    backgroundImage: "url(https://img.freepik.com/free-photo/two-businessman-shake-hand-coffee-shop_1150-6402.jpg?semt=ais_hybrid&w=740&q=80)",
+    backgroundImage: `url(${event})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
   }}

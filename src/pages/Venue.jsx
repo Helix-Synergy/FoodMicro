@@ -4,14 +4,14 @@ import { visit_places } from "../utils/Venue/Venue";
 import { banner_style } from "../Styles/styles";
 import VenueMap from "../components/ui/VenueMap";
 
-
+import venue from "../assets/Images1/venue.png"
 const Venue = () => {
   return (
     <div className="container flex flex-col justify-center items-center text-4xl font-bold">
     <div
   className={`${banner_style}`}
   style={{
-    backgroundImage: "url(https://images.unsplash.com/photo-1606857521015-7f9fcf423740?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8b2ZmaWNlfGVufDB8fDB8fHww)",
+    backgroundImage: `url(${venue})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
   }}

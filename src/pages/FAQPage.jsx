@@ -12,19 +12,20 @@ export const faqData = [
   {
     question: "What is FOODMICRO 2026?",
     answer:
-      "Techmatics 2026, officially known as the “Global Technology & Innovation Conference” (Techmatics-2026), is a major international technology event organized by Helix Conferences. It brings together Tech Professionals, Innovators, Researchers, and Industry Leaders to discuss breakthroughs across modern technologies.",
+      "FOODMICRO 2026, officially titled the “Food Microbiome Summit”, is a premier international conference organized by Helix Conferences. It brings together food microbiologists, researchers, scientists, industry experts, and academicians to discuss advances in food microbiome research, food safety, fermentation, probiotics, and sustainable food systems.",
   },
   {
-    question: "When and where will Techmatics 2026 take place?",
-    answer: "The conference will be held virtually on Sep 24-25, 2026.",
-  },
-  {
-    question: "What are the highlights of Techmatics 2026?",
+    question: "When and where will FOODMICRO 2026 take place?",
     answer:
-      "Keynote sessions, innovation showcases, expert-led workshops, live tech demos, and networking with global industry specialists.",
+      "FOODMICRO 2026 will be held on Apr 23–24, 2026, in Barcelona, Spain.",
   },
   {
-    question: "What conference tracks are featured at Techmatics 2026?",
+    question: "What are the highlights of FOODMICRO 2026?",
+    answer:
+      "Keynote presentations, scientific sessions, microbiome research showcases, expert-led workshops, panel discussions, and global networking opportunities.",
+  },
+  {
+    question: "What conference tracks are featured at FOODMICRO 2026?",
     answer: (
       <>
         You can explore the full list of tracks here:{" "}
@@ -44,7 +45,8 @@ export const faqData = [
     question: "How can I showcase my products or explore sponsorship options?",
     answer: (
       <>
-        To exhibit your products or discuss sponsorship packages, contact our team at{" "}
+        To exhibit your products or discuss sponsorship opportunities, please
+        contact our team at{" "}
         <a href={faqLinks.email} className="text-blue-600 underline">
           hello@helixconferences.com
         </a>
@@ -53,7 +55,7 @@ export const faqData = [
     ),
   },
   {
-    question: "How can I submit an abstract for Techmatics 2026?",
+    question: "How can I submit an abstract for FOODMICRO 2026?",
     answer: (
       <>
         You can submit your abstract{" "}
@@ -72,53 +74,54 @@ export const faqData = [
   {
     question: "How will I receive my invoice?",
     answer:
-      "Invoices will be emailed to the address provided during registration. Please check your inbox and spam folder.",
+      "Invoices will be sent to the email address provided during registration. Please check your inbox and spam folder.",
   },
   {
     question: "What materials will I receive during the event?",
     answer:
-      "Attendees will receive a digital conference kit containing the schedule, speaker list, and session details.",
+      "Registered participants will receive a digital conference kit including the program schedule, speaker details, and session information.",
   },
   {
     question: "How long can I present my topic?",
     answer:
-      "Presentation durations typically range from 15–20 minutes. Final timings will be shared after abstract review.",
+      "Oral presentations are typically 15–20 minutes long, including Q&A. Final presentation guidelines will be shared after abstract acceptance.",
   },
   {
-    question: "Who will be attending Techmatics 2026?",
+    question: "Who will be attending FOODMICRO 2026?",
     answer:
-      "Tech professionals, researchers, scientists, founders, engineers, innovators, and industry executives from around the world.",
+      "Food microbiologists, researchers, food technologists, nutrition scientists, industry professionals, academicians, and policy makers from around the world.",
   },
   {
     question: "How many people usually attend the conference?",
     answer:
-      "We expect 100+ international attendees, including speakers, delegates, and exhibitors.",
+      "FOODMICRO 2026 is expected to host 100+ international attendees, including speakers, delegates, exhibitors, and sponsors.",
   },
   {
     question: "Can I register for multiple speaking sessions?",
     answer:
-      "Yes, you can participate in multiple sessions as long as each topic is unique. Submit separate abstracts accordingly.",
+      "Yes, speakers may submit multiple abstracts provided each submission covers a distinct topic.",
   },
   {
     question: "Are keynote speaking opportunities available?",
     answer:
-      "Yes, a limited number of keynote slots are available. Express your interest in the abstract submission form.",
+      "Yes, a limited number of keynote speaker slots are available. Interested candidates should indicate their preference during abstract submission.",
   },
   {
     question: "What is expected of speakers?",
     answer:
-      "Speakers are expected to deliver informative sessions, share insights, and engage the audience. Detailed guidelines will be provided upon selection.",
+      "Speakers are expected to deliver high-quality scientific presentations, share research insights, and actively engage with attendees.",
   },
   {
     question: "Is there a fee to participate as a speaker or attendee?",
     answer:
-      "Yes, registration fees apply to all participants. Visit the “Buy A Ticket” section on the website for pricing details.",
+      "Yes, registration fees apply to all participants. Please visit the “Buy A Ticket” section on the website for detailed pricing information.",
   },
   {
     question: "How can I view the event schedule?",
     answer: (
       <>
-        The complete schedule will be available soon. View or download it{" "}
+        The detailed conference schedule will be released soon. You can view or
+        download it{" "}
         <a
           href={faqLinks.schedule}
           target="_blank"
@@ -134,18 +137,18 @@ export const faqData = [
   {
     question: "Can I preview the session list before the event?",
     answer:
-      "Yes, the full agenda including speaker details and session topics will be published prior to the event.",
+      "Yes, the complete agenda, including session titles and speaker information, will be published ahead of the conference dates.",
   },
   {
     question: "Can I purchase tickets before the event day?",
     answer:
-      "Yes, we encourage early registration. Limited last-minute tickets may be available.",
+      "Yes, early registration is encouraged. Ticket availability may be limited closer to the event dates.",
   },
   {
     question: "How can I get assistance with accommodation?",
     answer: (
       <>
-        For accommodation assistance, please email us at{" "}
+        For accommodation-related assistance, please reach out to us at{" "}
         <a href={faqLinks.email} className="text-blue-600 underline">
           hello@helixconferences.com
         </a>

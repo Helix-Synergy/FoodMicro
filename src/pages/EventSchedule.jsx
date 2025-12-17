@@ -1,7 +1,7 @@
 import React from "react";
 import EventSchedule from "../components/EventSchedule";
 import { banner_style } from "../Styles/styles";
-
+import Sche from "../assets/Images1/Sche.png"
 const Schedule = () => {
   return (
     <div className="container mx-auto ">
@@ -9,7 +9,7 @@ const Schedule = () => {
       <div
   className={`${banner_style} schedule-banner`}
   style={{
-    backgroundImage: "url('https://images.unsplash.com/photo-1551135049-8a33b5883817?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVzaW5lc3MlMjBkaXNjdXNzaW9ufGVufDB8fDB8fHww')",
+    backgroundImage: `url(${Sche})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
   }}

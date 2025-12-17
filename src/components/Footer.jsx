@@ -24,10 +24,13 @@ const Footer = () => {
         <div className=" pt-10 p-4 rounded-xl">
           <img
             src={logo}
-            alt="Techmatics Logo"
+            alt="FoodMeet Logo"
             className="h-32 w-48 sm:h-32 md:h-[180px] object-cover rounded-xl"
             loading="lazy"
+
           />
+          <br />
+          "Innovations in FoodMicro: Advancing Microbial Science Through Knowledge and Collaboration"
         </div>
       </div>
 
