@@ -97,28 +97,29 @@ const AbstractSubmission = () => {
     setLoading(false);
   };
 
-  const presentationOptions = [
-    "Artificial Intelligence",
-    "Machine Learning",
-    "Data Science & Analytics",
-    "Cloud Computing",
-    "Cybersecurity",
-    "Blockchain Technology",
-    "Internet of Things (IoT)",
-    "Robotics & Automation",
-    "Quantum Computing",
-    "Software Engineering",
-    "Full Stack Development",
-    "Mobile App Development",
-    "Web Technologies",
-    "Augmented & Virtual Reality (AR/VR)",
-    "DevOps & CloudOps",
-    "Big Data Engineering",
-    "Green & Sustainable Technology",
-    "Digital HealthTech",
-    "Bioinformatics",
-    "Edge Computing",
-  ];
+const presentationOptions = [
+  "Food Microbiology",
+  "Food Safety & Quality Control",
+  "Food Microbiome Research",
+  "Fermentation Technology",
+  "Probiotics & Prebiotics",
+  "Food Biotechnology",
+  "Microbial Genetics in Food",
+  "Foodborne Pathogens",
+  "Functional Foods & Nutraceuticals",
+  "Dairy & Bakery Microbiology",
+  "Meat, Poultry & Seafood Microbiology",
+  "Plant-Based & Alternative Proteins",
+  "Food Preservation & Shelf-Life Studies",
+  "Post-Harvest Technology",
+  "Food Processing & Packaging",
+  "Hygiene & Sanitation in Food Industry",
+  "Molecular Techniques in Food Analysis",
+  "Sustainable Food Systems",
+  "Regulatory Affairs & Food Standards",
+  "Emerging Trends in Food Science",
+];
+
 
   return (
     <div className="w-[90%] mx-auto p-4">
@@ -297,7 +298,7 @@ const AbstractSubmission = () => {
         </button>
 
         <button className="bg-one ml-2 px-4 py-2 rounded">
-          <a href="/sample_abstract.pdf" download className="text-white">
+          <a href="/FMBC.pdf" download className="text-white">
             Download Demo Abstract
           </a>
         </button>

@@ -22,7 +22,7 @@ const AboutUs = () => {
          in Food Microbiome Science
         </h1>
         <p className="text-base my-2">
-     Welcome to the global hub for <Link to="/Food-Microbiome-orators" >Food Microbiome  </Link> Conferences and Scientific Innovation. Discover the most influential Food Microbiome Summit events, bringing together microbiome researchers, food scientists, nutritionists, biotechnologists, clinicians, industry leaders, and policy experts.{" "}
+     Welcome to the global hub for <Link to="/Food-Microbiome-orators" >Food Microbiome  </Link> Conferences and Scientific Innovation. Discover the most influential Food Microbiome Summit events, bringing together Microbiome Researchers, Food Scientists, Nutritionists, Biotechnologists, Clinicians, Industry Leaders, and Policy experts.{" "}
           <Link
             className="text-accent font-bold"
             target="_blank"

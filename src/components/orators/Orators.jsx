@@ -6,7 +6,7 @@ import OraterCard from "../ui/OraterCard";
 const Orators = () => {
   return (
     <div className="flex flex-col px-4 md:px-12 py-8 items-center justify-center my-8">
-      <h1 className="text-2xl text-one md:text-3xl font-bold text-center">
+      <h1 className="text-2xl text-black md:text-3xl font-bold text-center">
         FOOD MICROBIOME- Orators
       </h1>
   

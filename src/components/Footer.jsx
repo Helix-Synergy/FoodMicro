@@ -17,7 +17,7 @@ const Footer = () => {
   ];
 
   return (
-    <div className="flex flex-col rounded-t-2xl md:flex-row md:justify-between bg-orange px-4 sm:px-6 md:px-12 py-8 md:py-10 text-white gap-10 md:gap-6 items-start md:items-stretch">
+    <div className="flex flex-col rounded-t-2xl md:flex-row md:justify-between bg-amber-700 px-4 sm:px-6 md:px-12 py-8 md:py-10 text-white gap-10 md:gap-6 items-start md:items-stretch">
 
       {/* Grid 1 */}
       <div className="w-full md:w-1/4 flex flex-col mt-[10px] items-center md:items-start text-center md:text-left gap-4">
