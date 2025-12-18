@@ -94,24 +94,43 @@ module.exports = {
         fadeOut: "fadeOut 1s ease-in-out forwards",
         slideUp: "slideUp 0.5s ease-out",
       },
-      colors: {
-        one: "#6D28D9",       // changed from #6D6D6D → PURPLE
-        primary: "#0F0B1F",   // Dark background
-        secondary: "#1B1533", // Slightly lighter dark for cards/sections
-        accent: "#6D28D9",    // changed to PURPLE
-        coal:  "#090714",      // Deep dark accent if needed
+      // colors: {
+      //   one: "#6D28D9",       // changed from #6D6D6D → PURPLE
+      //   primary: "#0F0B1F",   // Dark background
+      //   secondary: "#1B1533", // Slightly lighter dark for cards/sections
+      //   accent: "#6D28D9",    // changed to PURPLE
+      //   coal:  "#090714",      // Deep dark accent if needed
 
-        // Icon and supporting colors
-        sky:"#A78BFA",
-        orange: "#C4B5FD",
-        lightGreen: "#DDD6FE",
+      //   // Icon and supporting colors
+      //   sky:"#A78BFA",
+      //   orange: "#C4B5FD",
+      //   lightGreen: "#DDD6FE",
 
-        track: {
-          odd: "#1E1B3A",
-          even: "#14122B",
-          green: "#6D28D9", // changed from #6D6D6D → PURPLE
-        },
-      },
+      //   track: {
+      //     odd: "#1E1B3A",
+      //     even: "#14122B",
+      //     green: "#6D28D9", // changed from #6D6D6D → PURPLE
+      //   },
+      // },
+     colors: {
+  one: "#F97316",        // ORANGE (replaces purple)
+  primary: "#0F0B1F",    // keep dark background
+  secondary: "#1B1533",  // keep dark cards
+  accent: "#F97316",     // ORANGE accent
+  coal: "#090714",
+
+  // Icon and supporting colors (orange-based)
+  sky: "#FDBA74",
+  orange: "#EA580C",
+  lightGreen: "#FED7AA",
+
+  track: {
+    odd: "#1E1B3A",
+    even: "#14122B",
+    green: "#F97316",    // ORANGE (replaces purple)
+  },
+},
+     
       textShadow: {
         "blue-950": "0px 0px 50px rgb(244, 255, 238)", // unchanged
       },

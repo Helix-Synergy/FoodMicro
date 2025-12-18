@@ -17,7 +17,7 @@ const Venue = () => {
   return (
     <div className="w-full py-8 px-4 md:px-12 flex flex-col justify-center items-center md:px-32 border-t">
       <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-       FOODMICRO – Venue
+       FOOD MICROBIOME  – Venue
       </h2>
  
       <div className="flex flex-col md:flex-row justify-between gap-4 w-full">

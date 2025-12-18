@@ -19,7 +19,7 @@ const Executive_members = () => {
   }}
 >
         <h1 className=" text-white text-3xl sm:text-5xl md:text-6xl font-bold px-4">
-         FOODMICRO  - Panel Members
+        FOOD MICROBIOME - Panel Members
         </h1>
       </div>
 
@@ -29,7 +29,7 @@ const Executive_members = () => {
           Meet Our Distinguished Panel Members
         </h2>
         <p className="w-full md:w-2/3 text-sm md:text-base text-slate-600">
-         Leading innovators and industry experts from around the world sharing knowledge and driving the conversation at FOODMICRO.
+         Leading innovators and industry experts from around the world sharing knowledge and driving the conversation at  FOOD MICROBIOME.
         </p>
       </div>
 

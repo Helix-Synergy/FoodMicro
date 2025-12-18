@@ -32,7 +32,7 @@ const links = [
     id: 'event-schedule',
     icon: CalendarCheck,
     label: 'Schedule',
-    link: "/Food-Micro-event-schedule"
+    link: "/Food-Microbiome-event-schedule"
   },
   {
     id: 'faq',
@@ -87,7 +87,7 @@ const QuickLinks = () => {
               <div className="bg-one text-white p-3 flex items-center justify-center rounded-l-full transition-custom">
                 <Icon className="h-5 w-5" />
               </div>
-              <span className="ml-4 pr-4 text-sm font-medium text-gray-800 whitespace-nowrap">
+              <span className="ml-4 pr-4 text-sm font-medium text-one-800 whitespace-nowrap">
                 {label}
               </span>
             </Link>

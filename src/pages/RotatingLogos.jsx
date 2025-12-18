@@ -188,7 +188,7 @@ export const tracks = [
         This track examines how dietary components shape the gut microbiome and
         influence host health. It explores mechanisms of microbial modulation{" "}
         <Link
-          to="/Food-Micro-orators"
+          to="/Food-Microbiome-orators"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -254,7 +254,7 @@ export const tracks = [
         Explores leveraging beneficial microbes to prevent spoilage and extend
         shelf life. It covers microbial ecology,{" "}
         <Link
-          to="/Food-Micro-event-schedule"
+          to="/Food-Microbiome-event-schedule"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -278,7 +278,7 @@ export const tracks = [
         fermentation-based preservation strategies, highlighting sustainable,
         chemical-free approaches to maintain food quality, safety, and{" "}
         <Link
-          to="/Food-Micro-orators"
+          to="/Food-Microbiome-orators"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -321,7 +321,7 @@ export const tracks = [
         well-being. The track highlights emerging research on personalized
         nutrition, functional foods, and microbiome-targeted interventions for{" "}
         <Link
-          to="/Food-Micro-event-schedule"
+          to="/Food-Microbiome-event-schedule"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -379,7 +379,7 @@ export const tracks = [
       <>
         This focuses on innovative strategies to enhance food security while minimizing environmental impact. It explores {" "}
         <Link
-          to="/about-Food-Micro-conclave"
+          to="/about-Food-Microbiome-conclave"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -397,7 +397,7 @@ export const tracks = [
       <>
         Examines how processing impacts{" "}
         <Link
-          to="/Food-Micro-event-schedule"
+          to="/Food-Microbiome-event-schedule"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -451,7 +451,7 @@ export const tracks = [
       <>
      Explores the roles of functional {" "}
         <Link
-          to="/Food-Micro-event-schedule"
+          to="/Food-Microbiome-event-schedule"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -469,7 +469,7 @@ export const tracks = [
       <>
       {" "}
         <Link
-          to="/Food-Micro-orators"
+          to="/Food-Microbiome-orators"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >

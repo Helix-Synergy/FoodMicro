@@ -44,7 +44,7 @@ const data = {
       <>
         {/* From cutting-edge AI to advanced robotics, from cybersecurity trends to sustainable engineering—we curate thought-provoking content and create immersive spaces where innovation thrives. Explore our sessions to engage with the future of technology, exchange ideas with global experts, and drive impactful solutions across industries.{" "} */}
         <Link
-          to="/Food-Micro-conference-tracks/"
+          to="/Food-Microbiome-conference-tracks/"
           target="blank"
           rel="noopener noreferrer"
           className="text-accent font-bold"
@@ -91,7 +91,7 @@ const data = {
       title: "Scientific Insights",
       description: "Discover the latest trends and breakthroughs in",
       linkText: "food microbiome research",
-      link: "/Food-Micro-event-schedule",
+      link: "/Food-Microbiome-event-schedule",
     },
     {
       title: "Collaboration Forums",

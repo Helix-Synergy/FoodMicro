@@ -7,7 +7,7 @@ const Orators = () => {
   return (
     <div className="flex flex-col px-4 md:px-12 h-auto items-center justify-center">
       <h1 className="text-2xl text-one md:text-3xl font-bold text-center">
-        FOODMICRO - Orators
+        FOOD MICROBIOME - Orators
       </h1>
      
 
@@ -24,7 +24,7 @@ const Orators = () => {
         ))}
       </div>
 
-      <Link to="/Food-Micro-orators" >
+      <Link to="/Food-Microbiome-orators" >
         <button className="bg-one text-white px-10 md:px-20 py-2 rounded-full mt-6 text-sm md:text-base">
           View All
         </button>

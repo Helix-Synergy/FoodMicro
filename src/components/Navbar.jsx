@@ -11,11 +11,11 @@ const Navbar = () => {
 
   const nav_links = [
     { name: "Home", link: "/" },
-    { name: "About", link: "/about-Food-Micro-conclave" },
+    { name: "About", link: "/about-Food-Microbiome-conclave" },
     { name: "Executive Panel", link: "/executive-panel-members/" },
-    { name: "Tracks", link: "/Food-Micro-conference-tracks/" },
-    { name: "Orators", link: "/Food-Micro-orators" },
-    { name: "Schedule", link: "/Food-Micro-event-schedule" },
+    { name: "Tracks", link: "/Food-Microbiome-conference-tracks/" },
+    { name: "Orators", link: "/Food-Microbiome-orators" },
+    { name: "Schedule", link: "/Food-Microbiome-event-schedule" },
     { name: "Venue", link: "/venue" },
     { name: "Event Partners", link: "/event_partners" },
     { name: "Contact", link: "/contact" },
@@ -76,7 +76,7 @@ const Navbar = () => {
 >
   <img
     src={logo}
-    alt="FoodMicro Logo"
+    alt=" FOOD MICROBIOME Logo"
     className="rounded-full object-cover transition-all duration-300 block"
     loading="lazy"
     style={{
@@ -113,9 +113,9 @@ const Navbar = () => {
             <Link
               key={index}
               to={item.link}
-              className={`hover-underline-animation text-black hover:text-[#6D6D6D] transition ${
+              className={`hover-underline-animation text-black hover:text-[#F97316] transition ${
                 location.pathname === item.link
-                  ? "border-[#6D28D9]"
+                  ? "border-[#F97316]"
                   : "border-transparent"
               }`}
               style={{
@@ -139,7 +139,7 @@ const Navbar = () => {
             <div className="flex flex-col items-start justify-center">
               <div
                 id="google_translate_element"
-                className="font-sm text-[#6D28D9]"
+                className="font-sm text-[#F97316]"
               ></div>
             </div>
           </div>
@@ -157,7 +157,7 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="lg:hidden bg-[#6D28D9] px-4 pb-4 space-y-4 shadow-md">
+        <div className="lg:hidden bg-[#F97316] px-4 pb-4 space-y-4 shadow-md">
           {nav_links.map((item, index) => (
             <Link
               key={index}
@@ -172,7 +172,7 @@ const Navbar = () => {
             <div id="google_translate_element" className="mt-2"></div>
             <Link
               to="https://helixconferences.com/buy-a-ticket"
-              className="block w-full border border-white text-center py-2 rounded-full text-white hover:bg-white hover:text-[#6D28D9] transition"
+              className="block w-full border border-white text-center py-2 rounded-full text-white hover:bg-white hover:text-[#F97316] transition"
             >
               Register
             </Link>

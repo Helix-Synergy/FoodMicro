@@ -37,7 +37,7 @@ const Partners = () => {
     <div className="py-10 w-[90%] mx-auto bg-white flex flex-col items-center">
       {/* <p className="text-one font-semibold text-xl mb-2">Partners</p> */}
       <h1 className="text-4xl text-black font-bold text-center mb-10">
-       FOODMICRO - Event Partners
+      FOOD MICROBIOME - Event Partners
       </h1>
 
       {/* Carousel Container */}

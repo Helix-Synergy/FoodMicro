@@ -28,7 +28,7 @@ export const panel_members_about = [
     name: "Sarah Lebeer",
     from: "Belgium",
     about: "University of Antwerp",
-    link: "/executive-panel-members/Rd",
+    // link: "/executive-panel-members/Rd",
   },
   {
     id: "Paulo",
@@ -36,7 +36,7 @@ export const panel_members_about = [
     name: "Justin L. Sonnenburg",
     from: "USA",
     about: "Stanford University",
-    link: "/executive-panel-members/Paulo",
+    // link: "/executive-panel-members/Paulo",
   },
   // Second row
   // {

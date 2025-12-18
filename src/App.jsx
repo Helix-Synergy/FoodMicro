@@ -43,12 +43,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/executive-panel-members/" element={<ExecutiveMembers />} />
-        <Route path="/Food-Micro-orators"  element={<Orators />} />
-        <Route path="/about-Food-Micro-conclave" element={<AboutOralMed />} />
-        <Route path="/Food-Micro-event-schedule" element={<EventSchedule />} />
+        <Route path= "/Food-Microbiome-orators"  element={<Orators />} />
+        <Route path="/about-Food-Microbiome-conclave" element={<AboutOralMed />} />
+        <Route path="/Food-Microbiome-event-schedule" element={<EventSchedule />} />
         <Route path="/venue" element={<Venue/>}/>
         <Route path="/contact" element={<ContactForm />} />
-        <Route path="/Food-Micro-conference-tracks/" element={<RotatingLogos />} />
+        <Route path="/Food-Microbiome-conference-tracks/" element={<RotatingLogos />} />
         <Route path="/abstract-submission" element={<AbstractSubmission />} />
         <Route path="/brochure-download" element={<BrochureDownload />} />
         <Route path="/faq" element={<FAQPage />} />

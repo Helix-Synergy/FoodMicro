@@ -4,10 +4,10 @@
 
 :root {
   /* --tw-shadow-color: #7ab326; replaced with Purple */
-  --tw-shadow-color: #6D28D9;
-  --one: #6D28D9;        /* Buttons, headings */
+  --tw-shadow-color: #F97316;
+--one: #FDBA74;       /* Buttons, headings */
   --primary: #1F1F1F;    /* Background dark */
-  --accent: #9A9A9A;     /* Links, hover states */
+ --accent: #FDBA74;   /* Links, hover states */
 }
 
 /* Page Backgrounds */
@@ -29,7 +29,7 @@
   display: flex;
   overflow: hidden;
   gap: var(--gap);
-  border: 2px dashed #6D28D9;
+  border: 2px dashed#F97316;
 }
 
 .marquee__content {
@@ -49,7 +49,7 @@
 .marquee__content > * {
   flex: 0 0 auto;
   color: #ffffff;
-  background: #6D28D9;
+  background:#F97316;
   margin: 2px;
   padding: 1rem 2rem;
   border-radius: 0.25rem;
@@ -121,7 +121,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #6D28D9;
+  background-color: #F97316;
   transition: transform 0.25s ease-out;
 }
 

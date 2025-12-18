@@ -1,31 +1,31 @@
 import React, { useState } from "react";
 
 const faqLinks = {
-  tracks:"/Food-Micro-conference-tracks/",
+  tracks:"/Food-Microbiome-conference-tracks/",
   abstractSubmission: "/abstract-submission",
-  schedule: "/Food-Micro-event-schedule" ,
+  schedule: "/Food-Microbiome-event-schedule" ,
   email: "mailto:hello@helixconferences.com",
 
 };
 
 export const faqData = [
   {
-    question: "What is FOODMICRO 2026?",
+    question: "What is Food Microbiome 2026?",
     answer:
-      "FOODMICRO 2026, officially titled the “Food Microbiome Summit”, is a premier international conference organized by Helix Conferences. It brings together food microbiologists, researchers, scientists, industry experts, and academicians to discuss advances in food microbiome research, food safety, fermentation, probiotics, and sustainable food systems.",
+      "Food Microbiome 2026, officially titled the “Food Microbiome Summit”, is a premier international conference organized by Helix Conferences. It brings together food microbiologists, researchers, scientists, industry experts, and academicians to discuss advances in food microbiome research, food safety, fermentation, probiotics, and sustainable food systems.",
   },
   {
-    question: "When and where will FOODMICRO 2026 take place?",
+    question: "When and where will Food Microbiome 2026 take place?",
     answer:
-      "FOODMICRO 2026 will be held on Apr 23–24, 2026, in Barcelona, Spain.",
+      "Food Microbiome 2026 will be held on Apr 23–24, 2026, in Barcelona, Spain.",
   },
   {
-    question: "What are the highlights of FOODMICRO 2026?",
+    question: "What are the highlights of Food Microbiome 2026?",
     answer:
       "Keynote presentations, scientific sessions, microbiome research showcases, expert-led workshops, panel discussions, and global networking opportunities.",
   },
   {
-    question: "What conference tracks are featured at FOODMICRO 2026?",
+    question: "What conference tracks are featured at Food Microbiome 2026?",
     answer: (
       <>
         You can explore the full list of tracks here:{" "}
@@ -35,7 +35,7 @@ export const faqData = [
           rel="noopener noreferrer"
           className="text-blue-600 underline"
         >
-          FOODMICRO 2026 Tracks
+          Food Microbiome 2026 Tracks
         </a>
         .
       </>
@@ -55,7 +55,7 @@ export const faqData = [
     ),
   },
   {
-    question: "How can I submit an abstract for FOODMICRO 2026?",
+    question: "How can I submit an abstract for Food Microbiome 2026?",
     answer: (
       <>
         You can submit your abstract{" "}
@@ -87,14 +87,14 @@ export const faqData = [
       "Oral presentations are typically 15–20 minutes long, including Q&A. Final presentation guidelines will be shared after abstract acceptance.",
   },
   {
-    question: "Who will be attending FOODMICRO 2026?",
+    question: "Who will be attending Food Microbiome 2026?",
     answer:
       "Food microbiologists, researchers, food technologists, nutrition scientists, industry professionals, academicians, and policy makers from around the world.",
   },
   {
     question: "How many people usually attend the conference?",
     answer:
-      "FOODMICRO 2026 is expected to host 100+ international attendees, including speakers, delegates, exhibitors, and sponsors.",
+      "Food Microbiome 2026 is expected to host 100+ international attendees, including speakers, delegates, exhibitors, and sponsors.",
   },
   {
     question: "Can I register for multiple speaking sessions?",

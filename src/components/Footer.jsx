@@ -6,18 +6,18 @@ import { ChevronRight, Mail, MapPin, Phone } from "lucide-react";
 
 const Footer = () => {
   const nav_links = [
-    { name: "About", link:"/about-Food-Micro-conclave" },
+    { name: "About", link:"/about-Food-Microbiome-conclave" },
     { name: "Executive Panel", link: "/executive-panel-members/" },
-    { name: "Tracks", link: "/Food-Micro-conference-tracks/" },
-    { name: "Orators", link: "/Food-Micro-orators"  },
-    { name: "Schedule", link: "/Food-Micro-event-schedule" },
+    { name: "Tracks", link: "/Food-Microbiome-conference-tracks/" },
+    { name: "Orators", link: "/Food-Microbiome-orators"  },
+    { name: "Schedule", link: "/Food-Microbiome-event-schedule" },
     { name: "Venue", link: "/venue" },
     { name: "Event Partners", link: "/event_partners" },
     { name: "Contact", link: "/Contact" },
   ];
 
   return (
-    <div className="flex flex-col rounded-t-2xl md:flex-row md:justify-between bg-secondary px-4 sm:px-6 md:px-12 py-8 md:py-10 text-white gap-10 md:gap-6 items-start md:items-stretch">
+    <div className="flex flex-col rounded-t-2xl md:flex-row md:justify-between bg-orange px-4 sm:px-6 md:px-12 py-8 md:py-10 text-white gap-10 md:gap-6 items-start md:items-stretch">
 
       {/* Grid 1 */}
       <div className="w-full md:w-1/4 flex flex-col mt-[10px] items-center md:items-start text-center md:text-left gap-4">
@@ -30,7 +30,7 @@ const Footer = () => {
 
           />
           <br />
-          "Innovations in FoodMicro: Advancing Microbial Science Through Knowledge and Collaboration"
+          "Innovations in FoodMicrobiome: Advancing Microbial Science Through Knowledge and Collaboration"
         </div>
       </div>
 
@@ -80,10 +80,10 @@ const Footer = () => {
         <h1 className="text-lightGreen font-semibold text-2xl sm:text-3xl border-b border-accent w-full pb-1">
           Get In Touch
         </h1>
-        <div className="flex flex-col gap-6 text-lightGreen w-full">
+        <div className="flex flex-col gap-6 w-full">
 
           <div className="flex flex-row gap-2 items-center justify-center md:justify-start text-sm sm:text-base">
-            <WhatsAppIcon className="h-5 w-5 fill-lightGreen" />
+            <WhatsAppIcon className="h-5 w-5 fill-orange" />
             <p>+1-305-239-8055</p>
           </div>
 

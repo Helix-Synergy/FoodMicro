@@ -17,7 +17,7 @@ const HomeTemplate = () => {
       <EpmsAbout />
       <Tracks />
       <Orators />
-      <EventSchedule height={50} name="View Full Schedule" link="/Food-Micro-event-schedule" />
+      <EventSchedule height={50} name="View Full Schedule" link="/Food-Microbiome-event-schedule" />
       <Venue />
       <Partners />
     </>

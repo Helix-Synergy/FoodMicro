@@ -48,7 +48,7 @@ const EventSchedule = ({ height, name, link }) => {
 
   return (
     <div className="w-full bg-one/20 rounded-2xl mx-auto px-4 md:px-12 py-8 flex flex-col items-center">
-      <p className="text-3xl font-semibold text-lightGreen">Event Schedule</p>
+      <p className="text-3xl font-semibold text-one">Event Schedule</p>
 
       {/* Day selection buttons */}
     <div className="flex flex-wrap justify-center gap-4 my-6  bg-one/20 h-auto p-4 rounded-2xl shadow-lg backdrop-blur-sm">
@@ -66,7 +66,7 @@ const EventSchedule = ({ height, name, link }) => {
             <h1 className="bg-accent text-white px-3 py-1 rounded-md font-semibold shadow-sm">
               Day {day}
             </h1>
-            <p className="text-base md:text-lg font-semibold text-lightGreen drop-shadow-sm">
+            <p className="text-base md:text-lg font-semibold text-white drop-shadow-sm">
               {day === 1 ? (
                 <>
                   23<sup>th</sup> April 2026

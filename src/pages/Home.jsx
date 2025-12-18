@@ -33,7 +33,7 @@ const Home = () => {
           </h1>
 
           <p className="text-2xl md:text-5xl text-accent">
-            FOODMICRO-2026
+          FOOD MICROBIOME-2026
           </p>
 
           <div className="float-end mt-4">

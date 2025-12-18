@@ -8,7 +8,7 @@ const TracksSection = () => {
   return (
     <div className="py-6 px-4 md:py-12 md:px-6 bg-one/20 h-auto">
       <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 md:mb-8">
-      FOODMICRO - Tracks
+      FOOD MICROBIOME- Tracks
       </h2>
 
       {/* Responsive Grid for Track Cards */}
@@ -31,7 +31,7 @@ const TracksSection = () => {
 
       {/* Call-to-action Buttons */}
       <div className=" mt-10 md:mt-10 flex flex-col md:flex-row gap-4 justify-center">
-        <Link to="/Food-Micro-conference-tracks/">
+        <Link to="/Food-Microbiome-conference-tracks/">
           <button className="bg-one text-white px-6 md:px-4 py-2 rounded-full text-sm md:text-base w-full md:w-auto text-center">
             Read More
           </button>

@@ -17,7 +17,7 @@ const Orators = () => {
   }}
 >
         <h1 className="text-slate-100 text-shadow text-one text-3xl sm:text-5xl md:text-6xl font-bold px-4">
-        FOODMICRO   - Orators
+        FOOD MICROBIOME  - Orators
         </h1>
       </div>
 
