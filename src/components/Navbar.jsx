@@ -34,59 +34,15 @@ const Navbar = () => {
   return (
     <header className="bg-white sticky top-0 z-50 w-full shadow-sm">
       <div className="flex items-center justify-evenly px-2 py-2 md:py-2 transition-all duration-300">
-        <div
+        {/* <div
           className={`transition-all duration-300 ${
             scrolled ? "h-20" : "h-20"
           }`}
         >
-          {/* <img
-            src={logo}
-            alt=" Techmatics Logo"
-            className="rounded-full object-cover transition-all duration-300"
-            loading="lazy"
-            style={{
-              height:
-                isOpen && window.innerWidth < 1024
-                  ? "5rem"
-                  : scrolled
-                  ? "5rem"
-                  : "8rem",
-              width:
-                isOpen && window.innerWidth < 1024
-                  ? "6rem"
-                  : scrolled
-                  ? "6rem"
-                  : "8rem",
-              marginTop:
-                isOpen && window.innerWidth < 1024
-                  ? "0.5rem"
-                  : scrolled
-                  ? "0rem"
-                  : "1rem",
-              border:
-                isOpen && window.innerWidth < 1024
-                  ? "none"
-                  : scrolled
-                  ? "none"
-                  : "2px solid #6D6D6D",
-              backgroundColor:
-                isOpen && window.innerWidth < 1024
-                  ? "transparent"
-                  : scrolled
-                  ? "transparent"
-                  : "#6D6D6D",
-              padding:
-                isOpen && window.innerWidth < 1024
-                  ? "0px"
-                  : scrolled
-                  ? "0px"
-                  : "4px",
-            }}
-          /> */}
           <img
             src={logo}
             alt="FoodMicro Logo"
-            className="rounded-full object-cover transition-all duration-300"
+            className=" w-40 h-40 rounded-full object-cover transition-all duration-300"
             loading="lazy"
             style={{
               height:
@@ -112,7 +68,41 @@ const Navbar = () => {
               backgroundColor: "black",
             }}
           />
-        </div>
+        </div> */}
+<div
+  className={`transition-all duration-300 overflow-visible ${
+    scrolled ? "h-28" : "h-28"
+  }`}
+>
+  <img
+    src={logo}
+    alt="FoodMicro Logo"
+    className="rounded-full object-cover transition-all duration-300 block"
+    loading="lazy"
+    style={{
+      height:
+        isOpen && window.innerWidth < 1024
+          ? "5rem"
+          : scrolled
+          ? "5rem"
+          : "8rem",
+      width:
+        isOpen && window.innerWidth < 1024
+          ? "6rem"
+          : scrolled
+          ? "6rem"
+          : "8rem",
+      marginTop:
+        isOpen && window.innerWidth < 1024
+          ? "0.25rem"
+          : scrolled
+          ? "0rem"
+          : "0.5rem",
+      objectFit: "cover",
+    }}
+  />
+</div>
+
 
         <nav
           className={`hidden lg:flex justify-between items-center text-lg font-bold-100 ${

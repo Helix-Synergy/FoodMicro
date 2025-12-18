@@ -3,7 +3,8 @@ import { panel_members } from "../utils/Pannel Members/panel_members";
 import PanelMemberCard from "../components/ui/PanelMemberCard";
 import { Link } from "react-router-dom";
 import { banner_style } from "../Styles/styles";
-import Epm from "../assets/Images1/Epm.png"
+
+import page from "../assets/Images1/PageBannersPeptides.png"
 const Executive_members = () => {
   return (
     <section className="cw-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
@@ -11,7 +12,7 @@ const Executive_members = () => {
     <div
   className={`${banner_style} mx-auto text-one executive-panel-banner w-full`}
   style={{
-    backgroundImage: `url(${Epm})`,
+    backgroundImage: `url(${page})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",

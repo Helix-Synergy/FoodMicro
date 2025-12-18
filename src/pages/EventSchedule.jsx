@@ -1,32 +1,36 @@
 import React from "react";
 import EventSchedule from "../components/EventSchedule";
 import { banner_style } from "../Styles/styles";
-import Sche from "../assets/Images1/Sche.png"
+import Sche from "../assets/Images1/Sche.png";
+
 const Schedule = () => {
   return (
-    <div className="container mx-auto ">
-      <section className="container w-[90%] mx-auto flex flex-col items-center justify-center">
+    <section className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
+      
+      {/* Banner Section (CLONED) */}
       <div
-  className={`${banner_style} schedule-banner`}
-  style={{
-    backgroundImage: `url(${Sche})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  }}
->
-          <h1 className="text-white text-3xl sm:text-5xl md:text-6xl font-bold px-4">
-           FOODMICRO - 2026
-          </h1>
-        </div>
+        className={`${banner_style} w-full mx-auto schedule-banner`}
+        style={{
+          backgroundImage: `url(${Sche})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <h1 className="text-white text-3xl sm:text-5xl md:text-6xl font-bold px-4">
+          FOODMICRO - 2026
+        </h1>
+      </div>
+
+      {/* Content Section */}
+      <div className="px-4 md:px-12">
         <EventSchedule
           height={"auto"}
           name={"Download"}
           link={"/pharmaTech_schedule.pdf"}
         />
+      </div>
 
-      
-      </section>
-    </div>
+    </section>
   );
 };
 
