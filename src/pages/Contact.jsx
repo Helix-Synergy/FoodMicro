@@ -206,9 +206,9 @@ const ContactForm = () => {
       <div className="w-full flex flex-col md:flex-row gap-6 py-4 items-stretch justify-center md:px-10 px-4">
         {/* Left Side - Webinars & Conferences */}
         <div className="w-full md:w-1/2 flex flex-col items-center justify-center px-4 py-8 bg-white border border-gray-200 rounded-xl shadow-lg">
-          {/* <h1 className="text-black text-3xl sm:text-4xl font-bold text-center">
-            Upcoming Conferences
-          </h1> */}
+          <h1 className="text-black text-3xl sm:text-4xl font-bold text-center">
+            Upcoming Conferences-2026
+          </h1>
           <div
             className="w-full flex flex-col py-6 md:flex-row gap-6 "
             // style={{

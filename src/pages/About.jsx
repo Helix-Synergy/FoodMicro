@@ -150,7 +150,7 @@ const AboutPublicHealth = () => {
       {/* Join Section */}
       <section className="mb-10 text-center w-full min-w-4xl px-2 md:px-12 lg:px-24">
         <h2 className="text-3xl font-bold text-one mb-4 w-full">
-          Join the Global Community at on Food Microbiome  2026
+          Join the Global Community at on Food Microbiome -2026
         </h2>
         {data.join.map((para, idx) => (
           <p
@@ -188,7 +188,7 @@ const AboutPublicHealth = () => {
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <PackageSearch className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-              Healthcare Professionals in Gastroenterology
+              Healthcare Professionals
             </h3>
           </div>
         </div>

@@ -28,7 +28,7 @@ import penouo from "../../assets/Pannel Members/Paneuo.jpg"
       image: Van,
       name: "Douwe Van Sinderen",
       from: "Ireland",
-      about: "University College Cork_",
+      about: "University College Cork",
       // link: "/techmatics-orators/janani-varun",
     },
     {

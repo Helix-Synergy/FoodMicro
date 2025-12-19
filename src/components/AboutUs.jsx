@@ -19,7 +19,7 @@ const AboutUs = () => {
       <div className="flex flex-col w-full md:w-2/3">
         <h1 className="text-xl md:text-3xl font-bold my-2">
           <span className="text-one">Advancing Global Excellence  </span>{" "}
-         in Food Microbiome Science
+         in Food Microbiome Sciences
         </h1>
         <p className="text-base my-2">
      Welcome to the global hub for <Link to="/Food-Microbiome-orators" >Food Microbiome  </Link> Conferences and Scientific Innovation. Discover the most influential Food Microbiome Summit events, bringing together Microbiome Researchers, Food Scientists, Nutritionists, Biotechnologists, Clinicians, Industry Leaders, and Policy experts.{" "}

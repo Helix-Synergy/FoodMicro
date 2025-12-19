@@ -31,7 +31,7 @@ const Footer = () => {
           />
           <br />
         <p style={{}}>
-     Advancing Microbial Science
+    "Advancing Research into Action"
         </p>
        
         </div>

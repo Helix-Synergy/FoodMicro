@@ -50,7 +50,7 @@ function App() {
         <Route path="/contact" element={<ContactForm />} />
         <Route path="/Food-Microbiome-conference-tracks/" element={<RotatingLogos />} />
         <Route path="/abstract-submission" element={<AbstractSubmission />} />
-        <Route path="/brochure-download" element={<BrochureDownload />} />
+        {/* <Route path="/brochure-download" element={<BrochureDownload />} /> */}
         <Route path="/faq" element={<FAQPage />} />
         <Route path="/event_partners" element={<SponsorshipPackages />} />
         {/* <Route path="/techmatics-orators/:id" element={<OratorDetails />} /> */}

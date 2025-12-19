@@ -26,13 +26,13 @@ const links = [
     id: 'brochure-download',
     icon: Download,
     label: 'Brochure download',
-    link: '/brochure-download'
+    link: '/FOODMICROBIOME_brochure.pdf'
   },
   {
     id: 'event-schedule',
     icon: CalendarCheck,
     label: 'Schedule',
-    link: "/Food-Microbiome-event-schedule"
+    link: '/Food-Microbiome-event-schedule'
   },
   {
     id: 'faq',
@@ -42,30 +42,29 @@ const links = [
   }
 ];
 
-
 const QuickLinks = () => {
   const [hoveredId, setHoveredId] = useState(null);
 
   return (
-    <>
-  
+    <div className="fixed bottom-14 right-0 z-20 flex flex-col space-y-3">
+      {links.map(({ id, icon: Icon, label, path, link }) => {
+        const isActive = hoveredId === id;
+        const href = path || link;
 
-      <div className="fixed bottom-14 right-0 z-20 flex flex-col space-y-3">
-        {links.map(({ id, icon: Icon, label, path, link }) => {
-          const isActive = hoveredId === id;
-          const href = path || link;
+        const classes = `flex items-center bg-white shadow-md rounded-l-full overflow-hidden transform transition-all duration-300 ${
+          isActive ? 'translate-x-0' : 'translate-x-40'
+        } ${id === 'mobile' ? 'animate-pulseShadow' : ''}`;
 
+        // ✅ Only brochure uses <a>
+        if (id === 'brochure-download') {
           return (
-            <Link
+            <a
               key={id}
-              to={href}
-              // target="_blank"
-              rel="noopener noreferrer"
+              href={href}
+              download
               onMouseEnter={() => setHoveredId(id)}
               onMouseLeave={() => setHoveredId(null)}
-              className={`flex items-center bg-white shadow-md rounded-l-full overflow-hidden transform transition-all duration-300 ${
-                isActive ? 'translate-x-0' : 'translate-x-40'
-              } ${id === 'mobile' ? 'animate-pulseShadow' : ''}`}
+              className={classes}
             >
               <div className="bg-one text-white p-3 flex items-center justify-center rounded-l-full transition-custom">
                 <Icon className="h-5 w-5" />
@@ -73,11 +72,29 @@ const QuickLinks = () => {
               <span className="ml-4 pr-4 text-sm font-medium text-one-800 whitespace-nowrap">
                 {label}
               </span>
-            </Link>
+            </a>
           );
-        })}
-      </div>
-    </>
+        }
+
+        // ✅ All others remain React routes
+        return (
+          <Link
+            key={id}
+            to={href}
+            onMouseEnter={() => setHoveredId(id)}
+            onMouseLeave={() => setHoveredId(null)}
+            className={classes}
+          >
+            <div className="bg-one text-white p-3 flex items-center justify-center rounded-l-full transition-custom">
+              <Icon className="h-5 w-5" />
+            </div>
+            <span className="ml-4 pr-4 text-sm font-medium text-one-800 whitespace-nowrap">
+              {label}
+            </span>
+          </Link>
+        );
+      })}
+    </div>
   );
 };
 

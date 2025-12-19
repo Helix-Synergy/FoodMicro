@@ -15,7 +15,7 @@ const Home = () => {
           
           <div className="flex flex-row items-end gap-4">
             <h1 className="text-accent text-shadow-md font-bold text-5xl md:text-6xl">
-              Apr
+              April
             </h1>
 
             <div className="flex flex-col justify-center items-start leading-tight">
