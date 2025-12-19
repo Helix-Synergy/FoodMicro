@@ -12,7 +12,7 @@ import penouo from "../../assets/Pannel Members/Paneuo.jpg"
       image: Francesa,
       name: "Francesca Bottacini",
       from: "Ireland",
-      // about: "Adjunct Professor",
+      about: "APC Microbiome Ireland",
       // link: "/techmatics-orators/siti-rahman"
     },
     {
@@ -20,7 +20,7 @@ import penouo from "../../assets/Pannel Members/Paneuo.jpg"
       image: Christophe,
       name: "Christophe Lacroix",
       from: "Switzerland",
-      // about: "Research Assistant",
+      about: "ETH Zurich",
       // link: "/techmatics-orators/abdullah-aydin",
     },
     {
@@ -28,7 +28,7 @@ import penouo from "../../assets/Pannel Members/Paneuo.jpg"
       image: Van,
       name: "Douwe Van Sinderen",
       from: "Ireland",
-      // about: "PhD in Molecular Biology",
+      about: "University College Cork_",
       // link: "/techmatics-orators/janani-varun",
     },
     {
@@ -36,7 +36,7 @@ import penouo from "../../assets/Pannel Members/Paneuo.jpg"
       image:Alje,
       name: "Alejandro Reyes",
       from: "Colombia",
-      // about: "PhD in Organic Chemistry",
+      about: "University of Los Andes",
       // link: "/techmatics-orators/abdeen-omer",
     },
     // Second row

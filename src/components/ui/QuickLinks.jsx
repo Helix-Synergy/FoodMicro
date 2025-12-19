@@ -48,24 +48,7 @@ const QuickLinks = () => {
 
   return (
     <>
-      <style>{`
-        @keyframes pulseShadow {
-        //   0%, 100% {
-        //     box-shadow: 0 0 0 0 rgba(59, 176, 94, 0.68);
-        //   }
-        //   50% {
-        //     box-shadow: 0 0 20px 6px rgb(122,179,38);
-        //   }
-        // }
-
-        .animate-pulseShadow {
-          animation: pulseShadow 2s ease-in-out infinite;
-        }
-
-        .transition-custom {
-          transition: all 0.8s ease-in-out;
-        }
-      `}</style>
+  
 
       <div className="fixed bottom-14 right-0 z-20 flex flex-col space-y-3">
         {links.map(({ id, icon: Icon, label, path, link }) => {

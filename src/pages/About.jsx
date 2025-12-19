@@ -150,7 +150,7 @@ const AboutPublicHealth = () => {
       {/* Join Section */}
       <section className="mb-10 text-center w-full min-w-4xl px-2 md:px-12 lg:px-24">
         <h2 className="text-3xl font-bold text-one mb-4 w-full">
-          Join the Global Community at on Food Microbiome Science 2026
+          Join the Global Community at on Food Microbiome  2026
         </h2>
         {data.join.map((para, idx) => (
           <p

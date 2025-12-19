@@ -27,7 +27,7 @@ const Orators = () => {
           Meet Our Distinguished Orators
         </h2>
         <p className="w-full md:w-2/3 text-sm md:text-base text-slate-600">
-          International experts and industry pioneers sharing transformative insights at FOODMICRO
+          International experts and industry pioneers sharing transformative insights at FOODMICROBIOME-2026
         </p>
       </div>
 

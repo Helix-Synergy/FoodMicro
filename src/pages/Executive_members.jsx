@@ -29,7 +29,7 @@ const Executive_members = () => {
           Meet Our Distinguished Panel Members
         </h2>
         <p className="w-full md:w-2/3 text-sm md:text-base text-slate-600">
-         Leading innovators and industry experts from around the world sharing knowledge and driving the conversation at  FOOD MICROBIOME.
+         Leading innovators and industry experts from around the world sharing knowledge and driving the conversation at   FOODMICROBIOME-2026.
         </p>
       </div>
 

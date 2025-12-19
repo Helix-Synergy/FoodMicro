@@ -31,13 +31,13 @@ const Venue = () => {
           <MapPin /> Coming Soon
         </h1>
 
-        <p className="text-sm md:text-[15px] flex flex-row items-center font-normal justify-center">
+        {/* <p className="text-sm md:text-[15px] flex flex-row items-center font-normal justify-center">
           <PlaneIcon className="mr-1" /> Coming soon
-        </p>
+        </p> */}
 
-        <h3 className="text-sm md:text-[18px] gap-2 font-normal flex flex-row items-center justify-center">
+        {/* <h3 className="text-sm md:text-[18px] gap-2 font-normal flex flex-row items-center justify-center">
           <Star size={18} /> 4.5 rating
-        </h3>
+        </h3> */}
       </div>
 
       {/* Content Section */}
