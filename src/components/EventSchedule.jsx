@@ -63,7 +63,7 @@ const EventSchedule = ({ height, name, link }) => {
                 : "bg-transparent text-accent hover:scale-105 hover:shadow-[0_6px_24px_rgba(0,0,0,0.15)]"
             }`}
           >
-            <h1 className="bg-accent text-white px-3 py-1 rounded-md font-semibold shadow-sm">
+            <h1 className="bg-white text-black px-3 py-1 rounded-md font-semibold shadow-sm">
               Day {day}
             </h1>
             <p className="text-base md:text-lg font-semibold text-white drop-shadow-sm">

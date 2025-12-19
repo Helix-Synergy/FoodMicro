@@ -25,12 +25,15 @@ const Footer = () => {
           <img
             src={logo}
             alt="FoodMeet Logo"
-            className="h-32 w-48 sm:h-32 md:h-[180px] object-cover rounded-xl"
+            className="h-32 md:h-56 rounded-lg"
             loading="lazy"
 
           />
           <br />
-          "Innovations in FoodMicrobiome: Advancing Microbial Science Through Knowledge and Collaboration"
+        <p style={{}}>
+     Advancing Microbial Science
+        </p>
+       
         </div>
       </div>
 

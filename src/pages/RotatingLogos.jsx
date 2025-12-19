@@ -546,7 +546,7 @@ const StaticTracks = () => {
 
   return (
     <>
-      <style>{`
+      {/* <style>{`
         @keyframes pulseShadow {
           0%, 100% {
             box-shadow: 0 0 0px rgba(44, 211, 35, 0.2);
@@ -563,7 +563,7 @@ const StaticTracks = () => {
         .transition-custom {
           transition: all 0.8s ease-in-out;
         }
-      `}</style>
+      `}</style> */}
 
       <div className="relative mt-14">
         {/* Fixed Top-Right Button */}
