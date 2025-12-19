@@ -12,7 +12,7 @@
 
 /* Page Backgrounds */
 .home {
-  background-image: url("https://iafns.org/wp-content/uploads/2025/10/Food-Micro-Reference-Strain-Collection-scaled.jpg");
+  background-image: url("./assets/banner.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;

@@ -22,7 +22,7 @@ import AbstractSubmission from "./pages/AbstractSubmission";
 import BrochureDownload from "./pages/BrochureDownload";
 import FAQPage from "./pages/FAQPage";
 import ExecutiveMembers from "./pages/Executive_members";
-
+import banner from "./assets/banner.jpg"
 function App() {
   const [showMiniNavbar, setShowMiniNavbar] = useState(true);
 
@@ -36,6 +36,8 @@ function App() {
   }, []);
 
   return (
+    <div>
+
     <Router>
       <ScrollToTop />
       <QuickLinks />
@@ -58,6 +60,18 @@ function App() {
       </Routes>
       <Footer />
     </Router>
+       <div
+      className="home"
+      style={{
+        backgroundImage: `url(${banner})`,
+        backgroundSize: "cover",
+        backgroundPosition: "top",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      {/* Your content */}
+    </div>
+    </div>
   );
 }
 
