@@ -236,8 +236,8 @@ const Navbar = () => {
                   ? "0px"
                   : scrolled
                   ? "0px"
-                  : "4px",
-                    transform: "scale(1.08)"
+                  : "4px"
+                    
             }}
           />
         </div>
