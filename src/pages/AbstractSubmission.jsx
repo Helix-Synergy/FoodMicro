@@ -151,95 +151,140 @@ const presentationOptions = [
           </div>
         )}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <input
-            name="firstName"
-            value={form.firstName}
-            onChange={handleChange}
-            placeholder="First Name"
-            required
-            className="border p-2 rounded"
-          />
-          <input
-            name="lastName"
-            value={form.lastName}
-            onChange={handleChange}
-            placeholder="Last Name"
-            required
-            className="border p-2 rounded"
-          />
-          <input
-            name="mobileNumber"
-            value={form.mobileNumber}
-            onChange={handleChange}
-            placeholder="Mobile Number"
-            required
-            className="border p-2 rounded"
-          />
-          <input
-            name="email"
-            value={form.email}
-            onChange={handleChange}
-            placeholder="Email"
-            type="email"
-            required
-            className="border p-2 rounded"
-          />
-          <input
-            name="address"
-            value={form.address}
-            onChange={handleChange}
-            placeholder="Address"
-            required
-            className="border p-2 rounded"
-          />
-          <input
-            name="state"
-            value={form.state}
-            onChange={handleChange}
-            placeholder="State"
-            required
-            className="border p-2 rounded"
-          />
-          <input
-            name="country"
-            value={form.country}
-            onChange={handleChange}
-            placeholder="Country"
-            required
-            className="border p-2 rounded"
-          />
-          <input
-            name="university"
-            value={form.university}
-            onChange={handleChange}
-            placeholder="University / Industry"
-            required
-            className="border p-2 rounded"
-          />
-          <input
-            name="affiliation"
-            value={form.affiliation}
-            onChange={handleChange}
-            placeholder="Affiliation"
-            required
-            className="border p-2 rounded"
-          />
-          <input
-            name="linkedin"
-            value={form.linkedin}
-            onChange={handleChange}
-            placeholder="LinkedIn"
-            className="border p-2 rounded"
-          />
-          <input
-            name="twitter"
-            value={form.twitter}
-            onChange={handleChange}
-            placeholder="Twitter"
-            className="border p-2 rounded"
-          />
-        </div>
+<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+  <div className="flex flex-col">
+    <label htmlFor="firstName">First Name</label>
+    <input
+      name="firstName"
+      value={form.firstName}
+      onChange={handleChange}
+      placeholder="First Name"
+      required
+      className="border p-2 rounded"
+    />
+  </div>
+
+  <div className="flex flex-col">
+    <label htmlFor="lastName">Last Name</label>
+    <input
+      name="lastName"
+      value={form.lastName}
+      onChange={handleChange}
+      placeholder="Last Name"
+      required
+      className="border p-2 rounded"
+    />
+  </div>
+
+  <div className="flex flex-col">
+    <label htmlFor="mobileNumber">Mobile Number</label>
+    <input
+      name="mobileNumber"
+      value={form.mobileNumber}
+      onChange={handleChange}
+      placeholder="Mobile Number"
+      required
+      className="border p-2 rounded"
+    />
+  </div>
+
+  <div className="flex flex-col">
+    <label htmlFor="email">Email</label>
+    <input
+      name="email"
+      value={form.email}
+      onChange={handleChange}
+      placeholder="Email"
+      type="email"
+      required
+      className="border p-2 rounded"
+    />
+  </div>
+
+  <div className="flex flex-col">
+    <label htmlFor="address">Address</label>
+    <input
+      name="address"
+      value={form.address}
+      onChange={handleChange}
+      placeholder="Address"
+      required
+      className="border p-2 rounded"
+    />
+  </div>
+
+  <div className="flex flex-col">
+    <label htmlFor="state">State</label>
+    <input
+      name="state"
+      value={form.state}
+      onChange={handleChange}
+      placeholder="State"
+      required
+      className="border p-2 rounded"
+    />
+  </div>
+
+  <div className="flex flex-col">
+    <label htmlFor="country">Country</label>
+    <input
+      name="country"
+      value={form.country}
+      onChange={handleChange}
+      placeholder="Country"
+      required
+      className="border p-2 rounded"
+    />
+  </div>
+
+  <div className="flex flex-col">
+    <label htmlFor="university">University / Industry</label>
+    <input
+      name="university"
+      value={form.university}
+      onChange={handleChange}
+      placeholder="University / Industry"
+      required
+      className="border p-2 rounded"
+    />
+  </div>
+
+  <div className="flex flex-col">
+    <label htmlFor="affiliation">Affiliation</label>
+    <input
+      name="affiliation"
+      value={form.affiliation}
+      onChange={handleChange}
+      placeholder="Affiliation"
+      required
+      className="border p-2 rounded"
+    />
+  </div>
+
+  <div className="flex flex-col">
+    <label htmlFor="linkedin">LinkedIn</label>
+    <input
+      name="linkedin"
+      value={form.linkedin}
+      onChange={handleChange}
+      placeholder="LinkedIn"
+      className="border p-2 rounded"
+    />
+  </div>
+
+  <div className="flex flex-col">
+    <label htmlFor="twitter">Twitter</label>
+    <input
+      name="twitter"
+      value={form.twitter}
+      onChange={handleChange}
+      placeholder="Twitter"
+      className="border p-2 rounded"
+    />
+  </div>
+
+</div>
 
         <select
           name="interestedIn"
@@ -297,7 +342,7 @@ const presentationOptions = [
           {loading ? "Submitting..." : "Submit Abstract"}
         </button>
 
-        <button className="bg-one ml-2 px-4 py-2 rounded">
+        <button  aria-label="Download Demo" className="bg-one ml-2 px-4 py-2 rounded">
           <a href="" download className="text-white">
             Download Demo Abstract
           </a>

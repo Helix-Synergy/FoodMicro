@@ -9,9 +9,9 @@ const AboutUs = () => {
       <div className="flex justify-center">
         <img
           src={about_img}
-          alt="Dental Conference 2026"
+          alt="Dental Conference 2027"
           loading="lazy"
-          className="h-[80%] md:max-h-[100%] w-auto md:w-[80vh] md:mx-16 rounded-2xl object-cover"
+          className="h-[60%] md:max-h-[80%] w-auto md:w-[60vh] md:mx-16 rounded-2xl object-cover"
         />
       </div>
 
@@ -21,7 +21,7 @@ const AboutUs = () => {
           <span className="text-one">Advancing Global Excellence  </span>{" "}
          in Food Microbiome Sciences
         </h1>
-        <p className="text-base my-2">
+        <p className="text-base my-2 text-justify">
      Welcome to the global hub for <Link to="/Food-Microbiome-orators" >Food Microbiome  </Link> Conferences and Scientific Innovation. Discover the most influential Food Microbiome Summit events, bringing together Microbiome Researchers, Food Scientists, Nutritionists, Biotechnologists, Clinicians, Industry Leaders, and Policy experts.{" "}
           <Link
             className="text-accent font-bold"
@@ -31,7 +31,7 @@ const AboutUs = () => {
         </p>
 <p>“Transforming Food and Health Through Microbiome Science and Innovation”</p>
         <Link to="/about-Food-Microbiome-conclave" >
-          <button className="flex bg-one text-white px-6 md:px-8 py-2 my-4 rounded-full text-sm md:text-base">
+          <button  aria-label="Know More" className="flex bg-one text-white px-6 md:px-8 py-2 my-4 rounded-full text-sm md:text-base">
             Know More
           </button>
         </Link>

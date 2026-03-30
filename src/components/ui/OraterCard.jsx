@@ -5,7 +5,7 @@ const OraterCard = ({ image, name, about, from }) => {
       <div className="border-2 border-one rounded-2xl inline-block">
         <img
           src={image}
-          alt="ima"
+          alt="Image"
           className="h-52 w-52 object-cover rounded-2xl m-2"
           loading="lazy"
         />

@@ -148,9 +148,9 @@ export const tracks = [
         >
           microorganisms and food environments
         </Link>
-        . It covers microbial diversity, fermentation processes, food safety,
+        .It covers microbial diversity, fermentation processes, food safety,
         spoilage prevention, and functional microbes’ roles in nutrition and
-        flavor. This track emphasizes innovative strategies to harness
+        flavor.This track emphasizes innovative strategies to harness
         beneficial microbes for sustainable, safe, and high-quality food
         production.
       </>
@@ -171,7 +171,7 @@ export const tracks = [
           Microbiome Sequencing & Metagenomics
         </Link>{" "}
         for Food Research track focuses on advanced techniques to analyze
-        microbial communities in food systems. It covers high-throughput
+        microbial communities in food systems.It covers high-throughput
         sequencing, metagenomic analysis, functional profiling, and microbial
         interactions, aiming to improve food safety, quality, fermentation
         processes, and the development of innovative, health-promoting food
@@ -186,7 +186,7 @@ export const tracks = [
     description: (
       <>
         This track examines how dietary components shape the gut microbiome and
-        influence host health. It explores mechanisms of microbial modulation{" "}
+        influence host health.It explores mechanisms of microbial modulation{" "}
         <Link
           to="/Food-Microbiome-orators"
           className="hover:text-accent hover:decoration-accent
@@ -215,9 +215,9 @@ export const tracks = [
           Metabolites, Enzymes & Nutrient Transformations
         </Link>{" "}
         track explores the biochemical processes driving food quality, flavor,
-        and nutrition. It covers microbial and enzymatic pathways, metabolite
+        and nutrition.It covers microbial and enzymatic pathways, metabolite
         production, nutrient conversion, and their impact on food functionality
-        and safety. This track highlights innovative approaches to enhance food
+        and safety.This track highlights innovative approaches to enhance food
         systems through targeted metabolic and enzymatic interventions.
       </>
     ),
@@ -237,10 +237,10 @@ export const tracks = [
           Microbial Dynamics in Food Safety
         </Link>{" "}
         track investigates how microorganisms influence food contamination,
-        spoilage, and preservation. It covers pathogen behavior, microbial
+        spoilage, and preservation.It covers pathogen behavior, microbial
         interactions, risk assessment, and control strategies, emphasizing
         predictive models and innovative interventions to ensure safe,
-        high-quality food. This track bridges microbiology and practical food
+        high-quality food.This track bridges microbiology and practical food
         safety solutions.
       </>
     ),
@@ -252,7 +252,7 @@ export const tracks = [
     description: (
       <>
         Explores leveraging beneficial microbes to prevent spoilage and extend
-        shelf life. It covers microbial ecology,{" "}
+        shelf life.It covers microbial ecology,{" "}
         <Link
           to="/Food-Microbiome-event-schedule"
           className="hover:text-accent hover:decoration-accent
@@ -273,7 +273,7 @@ export const tracks = [
     description: (
       <>
         This track focuses on using beneficial microorganisms and natural
-        compounds to enhance food safety and shelf life. It covers microbial
+        compounds to enhance food safety and shelf life.It covers microbial
         antagonism, bacteriocins, plant-derived antimicrobials, and
         fermentation-based preservation strategies, highlighting sustainable,
         chemical-free approaches to maintain food quality, safety, and{" "}
@@ -301,7 +301,7 @@ export const tracks = [
         >
           microbial
         </Link>{" "}
-        communities across the entire food production continuum. It emphasizes
+        communities across the entire food production continuum.It emphasizes
         their roles in food safety, quality, fermentation, and sustainability,
         providing insights into strategies for harnessing beneficial microbes to
         optimize production processes, minimize contamination, and enhance
@@ -316,9 +316,9 @@ export const tracks = [
     description: (
       <>
         This track explores the dynamic interplay between diet, gut microbiota,
-        and host health. It examines how food components influence microbial
+        and host health.It examines how food components influence microbial
         composition and functionality, shaping metabolism, immunity, and overall
-        well-being. The track highlights emerging research on personalized
+        well-being.The track highlights emerging research on personalized
         nutrition, functional foods, and microbiome-targeted interventions for{" "}
         <Link
           to="/Food-Microbiome-event-schedule"
@@ -338,10 +338,10 @@ export const tracks = [
     description: (
       <>
         The Personalized Nutrition track focuses on tailoring dietary strategies
-        to individual genetic, metabolic, and microbiome profiles. It explores
+        to individual genetic, metabolic, and microbiome profiles.It explores
         nutrient–gene–microbe interactions, precision dietary interventions, and
         data-driven approaches to optimize health, prevent disease, and enhance
-        wellness. The track emphasizes innovations in{" "}
+        wellness.The track emphasizes innovations in{" "}
         <Link
           to="https://helixconferences.com/buy-a-ticket"
           className="hover:text-accent hover:decoration-accent
@@ -367,7 +367,7 @@ export const tracks = [
              transition-colors duration-300"
         >
           Soil & Plant Microbiomes
-        </Link> investigates microbial communities in soils and plants, highlighting their pivotal roles in nutrient cycling, plant growth, and crop resilience. The track examines microbiome-driven strategies for sustainable agriculture, biocontrol, and soil health management, emphasizing innovations that enhance productivity while minimizing environmental impact.
+        </Link> investigates microbial communities in soils and plants, highlighting their pivotal roles in nutrient cycling, plant growth, and crop resilience.The track examines microbiome-driven strategies for sustainable agriculture, biocontrol, and soil health management, emphasizing innovations that enhance productivity while minimizing environmental impact.
       </>
     ),
   },
@@ -377,7 +377,7 @@ export const tracks = [
     title: "Sustainable Agriculture & Food Production",
     description: (
       <>
-        This focuses on innovative strategies to enhance food security while minimizing environmental impact. It explores {" "}
+        This focuses on innovative strategies to enhance food security while minimizing environmental impact.It explores {" "}
         <Link
           to="/about-Food-Microbiome-conclave"
           className="hover:text-accent hover:decoration-accent
@@ -402,7 +402,7 @@ export const tracks = [
              transition-colors duration-300"
         >
           microbial populations
-        </Link> ,safety, and quality. The track covers thermal and non-thermal technologies, fermentation, preservation methods, and microbial dynamics, highlighting innovations that optimize beneficial microbes, control pathogens, and enhance the nutritional and sensory attributes of processed foods.
+        </Link> ,safety, and quality.The track covers thermal and non-thermal technologies, fermentation, preservation methods, and microbial dynamics, highlighting innovations that optimize beneficial microbes, control pathogens, and enhance the nutritional and sensory attributes of processed foods.
         
       </>
     ),
@@ -420,7 +420,7 @@ export const tracks = [
              transition-colors duration-300"
         >
           food and agricultural waste
-        </Link> into valuable products. The track covers bioconversion technologies, microbial and enzymatic interventions, resource recovery, and innovative circular approaches that reduce environmental impact, promote sustainability, and create economic opportunities within food systems and bio-based industries.
+        </Link> into valuable products.The track covers bioconversion technologies, microbial and enzymatic interventions, resource recovery, and innovative circular approaches that reduce environmental impact, promote sustainability, and create economic opportunities within food systems and bio-based industries.
         
       </>
     ),
@@ -438,7 +438,7 @@ export const tracks = [
              transition-colors duration-300"
         >
           Foodborne Microbial 
-        </Link>Microbial Risks examines the occurrence, behavior, and control of pathogenic microorganisms in food systems. The track addresses risk assessment, detection technologies, outbreak investigation, and mitigation strategies, emphasizing approaches to safeguard public health, ensure food safety, and develop evidence-based interventions across the food supply chain.
+        </Link>Microbial Risks examines the occurrence, behavior, and control of pathogenic microorganisms in food systems.The track addresses risk assessment, detection technologies, outbreak investigation, and mitigation strategies, emphasizing approaches to safeguard public health, ensure food safety, and develop evidence-based interventions across the food supply chain.
      
       </>
     ),
@@ -457,7 +457,7 @@ export const tracks = [
         >
           food components
         </Link>
-        components in modulating the gut microbiome and promoting host health. The track covers mechanisms of action, formulation strategies, clinical applications, and emerging research on microbiome-targeted interventions, highlighting innovations that enhance nutrition, immunity, and overall well-being through bioactive compounds.
+        components in modulating the gut microbiome and promoting host health.The track covers mechanisms of action, formulation strategies, clinical applications, and emerging research on microbiome-targeted interventions, highlighting innovations that enhance nutrition, immunity, and overall well-being through bioactive compounds.
       </>
     ),
   },
@@ -474,7 +474,7 @@ export const tracks = [
              transition-colors duration-300"
         >
           Fermented Foods – Health Benefits & Innovation
-        </Link> examines the microbiology, nutritional value, and functional properties of fermented foods. The track highlights mechanisms underlying health benefits, innovative fermentation technologies, and product development strategies, emphasizing their role in gut health, immunity, flavor enhancement, and the creation of novel, sustainable, and functional food products.
+        </Link> examines the microbiology, nutritional value, and functional properties of fermented foods.The track highlights mechanisms underlying health benefits, innovative fermentation technologies, and product development strategies, emphasizing their role in gut health, immunity, flavor enhancement, and the creation of novel, sustainable, and functional food products.
       </>
     ),
   },
@@ -492,7 +492,7 @@ export const tracks = [
              transition-colors duration-300"
         >
           microbiome research 
-        </Link> and applications. The track addresses intellectual property, safety, consumer acceptance, commercialization strategies, and responsible innovation, highlighting frameworks that balance scientific advancement, market potential, and societal responsibility in the development of microbiome-based products and solutions.
+        </Link> and applications.The track addresses intellectual property, safety, consumer acceptance, commercialization strategies, and responsible innovation, highlighting frameworks that balance scientific advancement, market potential, and societal responsibility in the development of microbiome-based products and solutions.
       </>
     ),
   },
@@ -503,7 +503,7 @@ export const tracks = [
     title: "Microbiome Engineering",
     description: (
       <>
-   This focuses on designing and manipulating microbial communities to enhance food quality, safety, and health outcomes. The track covers synthetic biology, microbial consortia, gene editing, and functional interventions, highlighting innovative strategies to optimize    {" "}
+   This focuses on designing and manipulating microbial communities to enhance food quality, safety, and health outcomes.The track covers synthetic biology, microbial consortia, gene editing, and functional interventions, highlighting innovative strategies to optimize    {" "}
         <Link
           to="/venue"
           className="hover:text-accent hover:decoration-accent
@@ -526,7 +526,7 @@ export const tracks = [
              transition-colors duration-300"
         >
           Quorum Sensing
-        </Link>{" "} explores microbial communication mechanisms that regulate collective behaviors in food systems, including biofilm formation, spoilage, and pathogenicity. The track covers signaling pathways, detection methods, and strategies to modulate quorum sensing, emphasizing applications in food safety, preservation, fermentation optimization, and the development of innovative microbiome-based interventions
+        </Link>{" "} explores microbial communication mechanisms that regulate collective behaviors in food systems, including biofilm formation, spoilage, and pathogenicity.The track covers signaling pathways, detection methods, and strategies to modulate quorum sensing, emphasizing applications in food safety, preservation, fermentation optimization, and the development of innovative microbiome-based interventions.
        
       </>
     ),
@@ -600,7 +600,7 @@ const StaticTracks = () => {
                 <h3 className="text-xl text-gray-600 font-semibold mb-3">
                   {track.subtitle}
                 </h3>
-                <p className="text-md text-gray-800 leading-relaxed">
+             <p className="text-md text-gray-800 leading-relaxed text-justify">
                   {track.description}
                 </p>
               </div>

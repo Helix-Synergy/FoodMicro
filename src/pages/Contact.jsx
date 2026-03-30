@@ -54,14 +54,7 @@ const ContactForm = () => {
         "https://backend-code-6vqy.onrender.com/contact",
         formData, // <-- CHANGED: Send FormData instead of raw form object
         { 
-          // <-- CHANGED: Content-Type header to multipart/form-data
-          // axios automatically sets the correct 'Content-Type' with boundary for FormData
-          // so removing the explicit 'Content-Type' is often best, but if you must keep it,
-          // ensure it's 'multipart/form-data' not 'application/json'.
-          // However, axios usually handles this best when you pass FormData directly.
-          // For clarity, I'm removing the explicit header here, as it's often problematic
-          // when manually set with FormData. If you need it, uncomment the line below.
-          // headers: { "Content-Type": "multipart/form-data" }, // This line would be re-added if absolutely necessary, but axios usually handles it.
+          
           withCredentials: true, 
         }
       );
@@ -89,38 +82,7 @@ const ContactForm = () => {
     }
   };
 
-  // const webinars = [
-  //   "World Gene Therapy Summit",
-  //   "Global Stemcell Meet",
-  //   "International Immunotherapy Conclave",
-  //   "International Biosensors Summit",
-  //   "Global Battery Tech Summit",
-  //   "World Bioelectronics Conclave",
-  //   "Global Vaccine Technology Summit",
-  //   "World Genomices Conclave",
-  //   "Global Proteomics Summit",
-  //   "Global Bigdata Summit",
-  //   "World Data Analytics Concalve",
-  //   "Global Block Chain Summit",
-  //   "Global Green Chemistry Conclave",
-  //   "World Biofuels Conclave",
-  //   "Global Fermentation Technology Summit",
-  //   "World Symposia on Food Chemistry",
-  //   "World Renewable Energy Conclave",
-  //   "Global Green Hydrogen Summit",
-  //   "International Quantum Computing Conclave",
-  //   "Global Biomechanics Summit",
-  //   "Global Cybersecurity Summit",
-  //   "Global Symposia on Metavers",
-  //   "International Machine Learning Summit",
-  //   "Global Conclave on Augmented Reality",
-  //   "Global Summit on Nano Engineering & Smart Technology",
-  //   "World Nano Summit",
-  //   "International Graphene Conclave",
-  //   "International Conference on Cloud Computing",
-  //   "International Artificial Intelligence & Robotics Conclave",
-  //   "Global Aerospace Engineering Conclave",
-  // ];
+
 
   const hybridConferences = [
     "Food, Agriculture & Environmental Sciences Forum",
@@ -169,15 +131,7 @@ const ContactForm = () => {
     "AI & Digital Nursing Forum",
     "Critical & Emergency Care Summit",
     "Nursing Leadership & Workforce Excellence Congress",
-    // "Global Nanotechnology Summit",
-    // "International Nanomaterials Conclave",
-    // "World Nanomedicine Summit",
-    // "Global Bioinformatics summit",
-    // "World Biofuel Congress",
-    // "International Biotechnology Conclave",
-    // "Global Stem Cell & Regenerative Medicine Summit",
-    // "World Summit on Artificial Intelligence in Healthcare",
-    // "International Conference on Climate Engineering",
+
   ];
 
   // const infiniteWebinars = [...webinars, ...webinars];
@@ -207,7 +161,7 @@ const ContactForm = () => {
         {/* Left Side - Webinars & Conferences */}
         <div className="w-full md:w-1/2 flex flex-col items-center justify-center px-4 py-8 bg-white border border-gray-200 rounded-xl shadow-lg">
           <h1 className="text-black text-3xl sm:text-4xl font-bold text-center">
-            Upcoming Conferences-2026
+            Upcoming Conferences-2026 & 2027
           </h1>
           <div
             className="w-full flex flex-col py-6 md:flex-row gap-6 "
@@ -258,7 +212,7 @@ const ContactForm = () => {
             {/* Hybrid Conferences */}
             <div className="w-full md:w-100 h-200 bg-white border border-one shadow-md rounded-xl overflow-hidden h-[70vh]">
               <h2 className="bg-accent text-white text-xl font-bold py-3 text-center z-10 relative">
-              Conferences-2026
+              Conferences-2026 & 2027
               </h2>
               <div
                 className="relative overflow-y-auto scrollbar-hide"
@@ -302,7 +256,7 @@ const ContactForm = () => {
           ref={contactFormRef}
           className="w-full md:w-1/2 flex flex-col items-center justify-center bg-white border border-gray-200 rounded-xl shadow-lg h-full"
         >
-          <h1 className="text-black text-3xl sm:text-4xl font-bold py-8">Contact Us</h1>
+          <h2 className="text-black text-3xl sm:text-4xl font-bold py-8">Contact Us</h2>
 
           <form onSubmit={handleSubmit} className="w-full max-w-lg flex flex-col space-y-4 py-6">
             {status.message && (
@@ -316,62 +270,94 @@ const ContactForm = () => {
               </div>
             )}
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <input
-                name="firstName"
-                value={form.firstName}
-                onChange={handleChange}
-                placeholder="First Name"
-                required
-                className="border border-gray-300 p-3 rounded"
-              />
-              <input
-                name="lastName"
-                value={form.lastName}
-                onChange={handleChange}
-                placeholder="Last Name"
-                required
-                className="border border-gray-300 p-3 rounded"
-              />
-            </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+  <div className="flex flex-col gap-1">
+    <label htmlFor="firstName" className="text-sm font-medium text-gray-700 text-left">
+      First Name
+    </label>
+    <input
+      name="firstName"
+      value={form.firstName}
+      onChange={handleChange}
+      placeholder="First Name"
+      required
+      className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+    />
+  </div>
 
-            <input
-              type="email"
-              name="email"
-              value={form.email}
-              onChange={handleChange}
-              placeholder="Email"
-              required
-              className="border border-gray-300 p-3 rounded"
-            />
+  <div className="flex flex-col gap-1">
+    <label htmlFor="lastName" className="text-sm font-medium text-gray-700 text-left">
+      Last Name
+    </label>
+    <input
+      name="lastName"
+      value={form.lastName}
+      onChange={handleChange}
+      placeholder="Last Name"
+      required
+      className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+    />
+  </div>
+</div>
 
-            <input
-              name="phone"
-              value={form.phone}
-              onChange={handleChange}
-              placeholder="Phone"
-              className="border border-gray-300 p-3 rounded"
-            />
+<div className="flex flex-col gap-1 mt-5">
+  <label htmlFor="email" className="text-sm font-medium text-gray-700 text-left">
+    Email
+  </label>
+  <input
+    type="email"
+    name="email"
+    value={form.email}
+    onChange={handleChange}
+    placeholder="Email"
+    required
+    className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+  />
+</div>
 
-            <input
-              name="company"
-              value={form.company}
-              onChange={handleChange}
-              placeholder="Company / University"
-              className="border border-gray-300 p-3 rounded"
-            />
+<div className="flex flex-col gap-1 mt-5">
+  <label htmlFor="phone" className="text-sm font-medium text-gray-700 text-left">
+    Phone
+  </label>
+  <input
+    name="phone"
+    value={form.phone}
+    onChange={handleChange}
+    placeholder="Phone"
+    className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+  />
+</div>
 
-            <textarea
-              name="message"
-              value={form.message}
-              onChange={handleChange}
-              placeholder="Your Message"
-              rows={4}
-              required
-              className="border border-gray-300 p-3 rounded"
-            />
+<div className="flex flex-col gap-1 mt-5">
+  <label htmlFor="company" className="text-sm font-medium text-gray-700 text-left">
+    Company / University
+  </label>
+  <input
+    name="company"
+    value={form.company}
+    onChange={handleChange}
+    placeholder="Company / University"
+    className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+  />
+</div>
+
+<div className="flex flex-col gap-1 mt-5">
+  <label htmlFor="message" className="text-sm font-medium text-gray-700 text-left">
+    Your Message
+  </label>
+  <textarea
+    name="message"
+    value={form.message}
+    onChange={handleChange}
+    placeholder="Your Message"
+    rows={4}
+    required
+    className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 resize-none"
+  />
+</div>
 
             <button
+            aria-label="Submit"
               type="submit"
               className="bg-one w-[120px] self-center text-white px-6 py-2 rounded-lg hover:opacity-80 transition"
               disabled={loading}

@@ -6,13 +6,11 @@ const Home = () => {
   return (
     <>
       <div className="scroll-smooth relative h-[86vh] home flex flex-col md:flex-row py-12 scroll-x-hidden w-full">
-        
         {/* Overlay - PURPLE themed */}
         <div className="absolute inset-0 bg-primary bg-opacity-60 z-0"></div>
 
         {/* Content */}
         <div className="relative z-2 flex flex-col items-start px-1 md:px-8 mt-4 justify-center h-full text-lightGreen text-2xl md:text-3xl font-bold">
-          
           <div className="flex flex-row items-end gap-4">
             <h1 className="text-accent text-shadow-md font-bold text-5xl md:text-6xl">
               April
@@ -20,7 +18,7 @@ const Home = () => {
 
             <div className="flex flex-col justify-center items-start leading-tight">
               <p className="text-base md:text-lg font-bold text-lightGreen">
-                23-24 | 2026
+                26-27 | 2027
               </p>
               <p className="text-base md:text-lg font-bold text-lightGreen">
                 Barcelona | Spain
@@ -33,7 +31,7 @@ const Home = () => {
           </h1>
 
           <p className="text-2xl md:text-5xl text-accent">
-          FOOD MICROBIOME-2026
+            FOOD MICROBIOME-2027
           </p>
 
           <div className="float-end mt-4">

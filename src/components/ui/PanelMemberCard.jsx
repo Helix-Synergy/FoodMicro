@@ -6,7 +6,7 @@ const PanelMemberCard = ({ image, name, about, from, link }) => {
       <div className="border-2 border-one rounded-full inline-block">
         <img
           src={image}
-          alt="ima"
+          alt="Panel Member"
           className="h-52 w-52 object-cover rounded-full m-2"
           loading="lazy"
         />

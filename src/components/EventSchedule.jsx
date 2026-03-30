@@ -51,8 +51,7 @@ const EventSchedule = ({ height, name, link }) => {
       <p className="text-3xl font-semibold text-black">Event Schedule</p>
 
       {/* Day selection buttons */}
-    <div className="flex flex-wrap justify-center gap-4 my-6  bg-one/20 h-auto p-4 rounded-2xl shadow-lg backdrop-blur-sm">
-
+      <div className="flex flex-wrap justify-center gap-4 my-6  bg-one/20 h-auto p-4 rounded-2xl shadow-lg backdrop-blur-sm">
         {[1, 2].map((day) => (
           <button
             key={day}
@@ -69,11 +68,11 @@ const EventSchedule = ({ height, name, link }) => {
             <p className="text-base md:text-lg font-semibold text-white drop-shadow-sm">
               {day === 1 ? (
                 <>
-                  23<sup></sup> April 2026
+                  26<sup></sup> April 2027
                 </>
               ) : (
                 <>
-                  24<sup></sup> April 2026
+                  27<sup></sup> April 2027
                 </>
               )}
             </p>
@@ -105,17 +104,16 @@ const EventSchedule = ({ height, name, link }) => {
         ) : (
           <Link>
           {/* // <Link to={link}> */}
-            <button className="bg-one text-white px-10 md:px-10 py-2 rounded-full mt-10 text-sm md:text-base hover:bg-accent transition">
-              Download
-            </button>
-          {/* </Link> */}
-       {/* ))} } */}
+      <button className="bg-one text-white px-10 md:px-10 py-2 rounded-full mt-10 text-sm md:text-base hover:bg-accent transition">
+        Download
+      </button>
+      {/* </Link> */}
+      {/* ))} } */}
     </div>
   );
 };
 
 export default EventSchedule;
-
 
 // // For Conferences use the above code ( for single schedule.)
 

@@ -26,7 +26,7 @@ const links = [
     id: 'brochure-download',
     icon: Download,
     label: 'Brochure download',
-    link: '/FOODMICROBIOME_brochure.pdf'
+    link: '/Food_Microbiome.pdf'
   },
   {
     id: 'event-schedule',

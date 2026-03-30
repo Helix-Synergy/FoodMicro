@@ -10,7 +10,7 @@ const ScheduleCard = ({ time, plan, note, image }) => {
       <div className="flex flex-col sm:flex-row items-start sm:items-center w-full sm:w-auto gap-4">
         <img
           src={image}
-          alt=""
+          alt="ScheduleCard"
           className="w-24 h-24 sm:w-28 sm:h-28 object-cover border rounded-full shrink-0"
           loading="lazy"
         />

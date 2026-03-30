@@ -129,19 +129,19 @@ const AboutPublicHealth = () => {
         </h1>
       </div>
 
-      <h1 className="text-4xl mt-2 font-bold text-one">
+      <h2 className="text-4xl mt-2 font-bold text-one">
         Fostering Collaboration Advancing Global Impact
-      </h1>
+      </h2>
       <p className="text-center text-gray-600 text-3xl mb-6">
         <strong>
-          23<sup></sup> - 24<sup></sup> April 2026
+          26<sup></sup> - 27<sup></sup> April 2027
         </strong>
       </p>
 
       {data.event.description.map((desc, idx) => (
         <p
           key={idx}
-          className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24"
+          className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24 text-justify"
         >
           {desc}
         </p>
@@ -150,7 +150,7 @@ const AboutPublicHealth = () => {
       {/* Join Section */}
       <section className="mb-10 text-center w-full min-w-4xl px-2 md:px-12 lg:px-24">
         <h2 className="text-3xl font-bold text-one mb-4 w-full">
-          Join the Global Community at on Food Microbiome -2026
+          Join the Global Community at on Food Microbiome -2027
         </h2>
         {data.join.map((para, idx) => (
           <p
@@ -201,7 +201,7 @@ const AboutPublicHealth = () => {
           {data.highlights.map((highlight, idx) => (
             <div
               key={idx}
-              className="bg-white rounded-xl p-4 text-md text-gray-800 text-left flex items-start shadow-sm "
+              className="bg-white rounded-xl p-4 text-md text-gray-800 text-left flex items-start shadow-sm text-justify"
             >
               <Star className="w-4 h-4 text-yellow-500 fill-yellow-500 mr-3 mt-1" />
               <div className="flex flex-wrap items-start">

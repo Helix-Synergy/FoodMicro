@@ -10,22 +10,22 @@ const faqLinks = {
 
 export const faqData = [
   {
-    question: "What is Food Microbiome 2026?",
+    question: "What is Food Microbiome 2027?",
     answer:
-      "Food Microbiome 2026, officially titled the “Food Microbiome Summit”, is a premier international conference organized by Helix Conferences. It brings together food microbiologists, researchers, scientists, industry experts, and academicians to discuss advances in food microbiome research, food safety, fermentation, probiotics, and sustainable food systems.",
+      "Food Microbiome 2027, officially titled the “Food Microbiome Summit”, is a premier international conference organized by Helix Conferences. It brings together food microbiologists, researchers, scientists, industry experts, and academicians to discuss advances in food microbiome research, food safety, fermentation, probiotics, and sustainable food systems.",
   },
   {
-    question: "When and where will Food Microbiome 2026 take place?",
+    question: "When and where will Food Microbiome 2027 take place?",
     answer:
-      "Food Microbiome 2026 will be held on Apr 23–24, 2026, in Barcelona, Spain.",
+      "Food Microbiome 2027 will be held on Apr 26–27, 2027, in Barcelona, Spain.",
   },
   {
-    question: "What are the highlights of Food Microbiome 2026?",
+    question: "What are the highlights of Food Microbiome 2027?",
     answer:
       "Keynote presentations, scientific sessions, microbiome research showcases, expert-led workshops, panel discussions, and global networking opportunities.",
   },
   {
-    question: "What conference tracks are featured at Food Microbiome 2026?",
+    question: "What conference tracks are featured at Food Microbiome 2027?",
     answer: (
       <>
         You can explore the full list of tracks here:{" "}
@@ -35,7 +35,7 @@ export const faqData = [
           rel="noopener noreferrer"
           className="text-blue-600 underline"
         >
-          Food Microbiome 2026 Tracks
+          Food Microbiome 2027 Tracks
         </a>
         .
       </>
@@ -55,7 +55,7 @@ export const faqData = [
     ),
   },
   {
-    question: "How can I submit an abstract for Food Microbiome 2026?",
+    question: "How can I submit an abstract for Food Microbiome 2027?",
     answer: (
       <>
         You can submit your abstract{" "}
@@ -87,14 +87,14 @@ export const faqData = [
       "Oral presentations are typically 15–20 minutes long, including Q&A. Final presentation guidelines will be shared after abstract acceptance.",
   },
   {
-    question: "Who will be attending Food Microbiome 2026?",
+    question: "Who will be attending Food Microbiome 2027?",
     answer:
       "Food microbiologists, researchers, food technologists, nutrition scientists, industry professionals, academicians, and policy makers from around the world.",
   },
   {
     question: "How many people usually attend the conference?",
     answer:
-      "Food Microbiome 2026 is expected to host 100+ international attendees, including speakers, delegates, exhibitors, and sponsors.",
+      "Food Microbiome 2027 is expected to host 100+ international attendees, including speakers, delegates, exhibitors, and sponsors.",
   },
   {
     question: "Can I register for multiple speaking sessions?",
@@ -171,6 +171,7 @@ const Faq = () => {
       {faqData.map((item, index) => (
         <div key={index} className="border-b border-gray-300 mb-4">
           <button
+          aria-label="Follow us on Twitter"
             className="w-full text-left py-4 px-2 font-medium text-lg flex justify-between items-center"
             onClick={() => toggle(index)}
           >
