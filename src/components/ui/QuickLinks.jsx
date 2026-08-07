@@ -8,13 +8,13 @@ const links = [
     id: 'mobile',
     icon: Phone,
     label: 'Call Us',
-    path: 'tel:+13052398055'
+    path: 'tel:+17036516096'
   },
   {
     id: 'whatsapp',
     icon: WhatsAppIcon,
     label: 'WhatsApp',
-    link: 'https://api.whatsapp.com/send/?phone=13052398055&text=Hello&type=phone_number&app_absent=0'
+    link: 'https://api.whatsapp.com/send/?phone=17036516096&text=Hello&type=phone_number&app_absent=0'
   },
   {
     id: 'abstract-submission',
@@ -26,7 +26,7 @@ const links = [
     id: 'brochure-download',
     icon: Download,
     label: 'Brochure download',
-    link: '/Food_Microbiome.pdf'
+    link: '/brochure-download'
   },
   {
     id: 'event-schedule',
@@ -55,28 +55,8 @@ const QuickLinks = () => {
           isActive ? 'translate-x-0' : 'translate-x-40'
         } ${id === 'mobile' ? 'animate-pulseShadow' : ''}`;
 
-        // ✅ Only brochure uses <a>
-        if (id === 'brochure-download') {
-          return (
-            <a
-              key={id}
-              href={href}
-              download
-              onMouseEnter={() => setHoveredId(id)}
-              onMouseLeave={() => setHoveredId(null)}
-              className={classes}
-            >
-              <div className="bg-one text-white p-3 flex items-center justify-center rounded-l-full transition-custom">
-                <Icon className="h-5 w-5" />
-              </div>
-              <span className="ml-4 pr-4 text-sm font-medium text-one-800 whitespace-nowrap">
-                {label}
-              </span>
-            </a>
-          );
-        }
-
         // ✅ All others remain React routes
+
         return (
           <Link
             key={id}

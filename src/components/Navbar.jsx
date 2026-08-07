@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.webp";
 import "../Styles/GoogleTranslate.css";
 
 const Navbar = () => {
@@ -121,7 +121,6 @@ const Navbar = () => {
             <Link
               to="https://helixconferences.com/buy-a-ticket"
               className="py-2 px-8 text-accent rounded-full bg-one text-white transition"
-              target="blank"
             >
               Register
             </Link>
@@ -160,6 +159,7 @@ const Navbar = () => {
             <Link
               to="https://helixconferences.com/buy-a-ticket"
               className="block w-full border border-one text-center py-2 rounded-full text-accent hover:bg-accent hover:text-white transition"
+              onClick={() => setIsOpen(false)}
             >
               Register
             </Link>

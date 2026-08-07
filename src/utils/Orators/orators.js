@@ -1,11 +1,11 @@
 // Techmatics Images
 import Francesa from "../../assets/Orator Banners/Francesca.webp"
-import Christophe from "../../assets/Orator Banners/Christophe.png"
-import Van from "../../assets/Orator Banners/Douwe.png"
-import Alje from "../../assets/Orator Banners/Alejandro.jpg"
-import vladimirGChigrinov from "../../assets/Pannel Members/e4.jpg"
-import jiashengZhu from "../../assets/Pannel Members/e7.jpg"
-import penouo from "../../assets/Pannel Members/Paneuo.jpg"
+import Christophe from "../../assets/Orator Banners/Christophe.webp"
+import Van from "../../assets/Orator Banners/Douwe.webp"
+import Alje from "../../assets/Orator Banners/Alejandro.webp"
+import vladimirGChigrinov from "../../assets/Pannel Members/e4.webp"
+import jiashengZhu from "../../assets/Pannel Members/e7.webp"
+import penouo from "../../assets/Pannel Members/Paneuo.webp"
   export const orators = [
     {
       id: "andreas-m-papas",
@@ -89,7 +89,7 @@ import penouo from "../../assets/Pannel Members/Paneuo.jpg"
 //   image: Jhanvi,
 //   from: "India",
 //   name: "Dr. Janani Varun",
-//   banner: "https://images6.alphacoders.com/911/911295.png",
+//   banner: "https://images6.alphacoders.com/911/911295.webp",
 //   about:
 // "Dr. Janani Varun is a distinguished expert in Generative AI, Large Language Models (LLM) and Machine Learning, with over 14+ years of experience in the IT industry. She holds a PhD in Computer Science and Engineering and has patent contributions in AI workflows and hallucination detection, as well as pioneering enhancements to the silhouette score.As a Senior Consultant at Infosys Center for Emerging Technology Solutions (ICETS), Dr. Janani Varun has led transformative AI projects across industries, including generative AI solutions such as chatbots, text summarization tools, and recommendation engines. She has spearheaded cutting-edge innovations in AI governance, model operationalization, and reducing model hallucinations.An accomplished thought leader, Dr. Janani Varun has authored technical blogs, white papers, and research articles in Springer and SCI journals. She is a sought-after speaker, having delivered guest lectures and seminars on Generative AI at industry conferences and academic institutions. Recognized for her mentorship and innovation, she has been instrumental in training the next generation of AI professionals. Dr. Janani Varun’s work emphasizes responsible AI practices and leveraging AI to deliver measurable business value.",
 // };
@@ -119,7 +119,7 @@ import penouo from "../../assets/Pannel Members/Paneuo.jpg"
 //   image: jiashengZhu,
 //   from: "China",
 //   name: "Dr. Jiasheng Zhu",
-//   banner: "https://img.freepik.com/premium-photo/chinese-flag_956664-2789.jpg",
+//   banner: "https://img.freepik.com/premium-photo/chinese-flag_956664-2789.webp",
 //   about:
 //     "Jiasheng Zhu graduated from Dalian Ocean University with a Ph.D. in Mechanical Engineering. He currentlyservesasanAssistant Researcher at Wuhu Hart Robot Technology Research Institute. His main research interests encompass robotictechnologies in shipbuilding industry, digital twin systems for vessels, and dynamic performance predictioninsprayingprocesses. As a project manager, he has led key R&D initiatives including an industrial robot development project for COSCOGroup and a specialized robotic system implementation project at Wuhu Digang Shipyard. He has contributedtofourprovincial-level research programs funded by Liaoning Department of Education and Department of Science &Technology.With 13 patent applications in related fields, he has published 11 peer-reviewed papers as first or correspondingauthorindomestic and international journals. Dr. Zhu played a pivotal role in formulating two Chinese national standards for magneticwall-climbing robots and has received five prestigious international robotics awards.",
 // };
@@ -129,7 +129,7 @@ import penouo from "../../assets/Pannel Members/Paneuo.jpg"
 //   image: penouo,
 //   from: "Brazil",
 //   name: "Prof. Paulo C. De Morais",
-//   banner: "https://cdn.pixabay.com/photo/2017/12/06/11/03/brazil-3001462_1280.png",
+//   banner: "https://cdn.pixabay.com/photo/2017/12/06/11/03/brazil-3001462_1280.webp",
 //   about:
 //    "Paulo C. de Morais, PhD, is Emeritus Professor of Physics at the University of Brasília and has held prominent academic positions in Brazil and China, including at Huazhong University of Science and Technology and Anhui University. A senior IEEE member and CNPq-1A research fellow since 2010, he has over 40 years of experience in nanomaterials research, with more than 500 peer-reviewed publications, 13,000+ citations, and 15+ patents. His work focuses on nanosized materials, including magnetic fluids and quantum dots. Recognized globally, he has received awards such as China’s 1000 Foreign Expert and appears in top scientist rankings including Stanford (2020) and AD Scientific Index (2023, 2025).",
 // };

@@ -5,14 +5,17 @@
 :root {
   /* --tw-shadow-color: #7ab326; replaced with Purple */
   --tw-shadow-color: #F97316;
---one: #FDBA74;       /* Buttons, headings */
-  --primary: #1F1F1F;    /* Background dark */
- --accent: #FDBA74;   /* Links, hover states */
+  --one: #FDBA74;
+  /* Buttons, headings */
+  --primary: #1F1F1F;
+  /* Background dark */
+  --accent: #FDBA74;
+  /* Links, hover states */
 }
 
 /* Page Backgrounds */
 .home {
-  background-image: url("./assets/banner.jpg");
+  background-image: url("./assets/banner.webp");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -46,10 +49,10 @@
   object-fit: contain;
 }
 
-.marquee__content > * {
+.marquee__content>* {
   flex: 0 0 auto;
   color: #ffffff;
-  background:#F97316;
+  background: #F97316;
   margin: 2px;
   padding: 1rem 2rem;
   border-radius: 0.25rem;
@@ -93,8 +96,12 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
+  border-radius: 0;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 /* Hide scrollbars */

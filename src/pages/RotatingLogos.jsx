@@ -2,25 +2,25 @@ import React, { useEffect, useState } from "react";
 import { Sparkle } from "lucide-react";
 import { Link } from "react-router-dom";
 // Importing the images
-import Microbial from "../assets/tracks/Microbial.jpg";
-import Microbiome from "../assets/tracks/Microbime-Engineering.jpg"
-import HostMicrobe  from "../assets/tracks/Host–Microbe.jpg";
-import Metabolites from "../assets/tracks/Metabo.jpg"
-import FoodSecurity from "../assets/tracks/Foodbrone Microbial.jpg";
-import FoodSpoil from "../assets/tracks/Food Spoilage.jpg"
-import Bio from "../assets/tracks/Biopreservation-Microbes.jpg";
-import Ecology from "../assets/tracks/Ecology.jpg"
-import GutFood from "../assets/tracks/Gut.jpg";
-import Personal from "../assets/tracks/Personalized Nutrition.jpg"
-import Soil from "../assets/tracks/Soil & Plant Microbiomes.jpg";
-import Sustainable from "../assets/tracks/Susbistanle.jpg"
+import Microbial from "../assets/tracks/Microbial.webp";
+import Microbiome from "../assets/tracks/Microbime-Engineering.webp"
+import HostMicrobe  from "../assets/tracks/Host–Microbe.webp";
+import Metabolites from "../assets/tracks/Metabo.webp"
+import FoodSecurity from "../assets/tracks/Foodbrone Microbial.webp";
+import FoodSpoil from "../assets/tracks/Food Spoilage.webp"
+import Bio from "../assets/tracks/Biopreservation-Microbes.webp";
+import Ecology from "../assets/tracks/Ecology.webp"
+import GutFood from "../assets/tracks/Gut.webp";
+import Personal from "../assets/tracks/Personalized Nutrition.webp"
+import Soil from "../assets/tracks/Soil & Plant Microbiomes.webp";
+import Sustainable from "../assets/tracks/Susbistanle.webp"
 import Processing from "../assets/tracks/Proceesig-Technologies.webp";
-import Circular from "../assets/tracks/Circular Bioeconomy.jpg"
-import Foodborne from "../assets/tracks/Foodbrone Microbial.jpg";
-import Prebiotics from "../assets/tracks/Prebiotics.jpg"
-import Fermented from "../assets/tracks/Feremented.jpg"
+import Circular from "../assets/tracks/Circular Bioeconomy.webp"
+import Foodborne from "../assets/tracks/Foodbrone Microbial.webp";
+import Prebiotics from "../assets/tracks/Prebiotics.webp"
+import Fermented from "../assets/tracks/Feremented.webp"
 import Ethical from "../assets/tracks/Ethical.webp";
-import MicrobiomeEng from "../assets/tracks/Microbime-Engineering.jpg"
+import MicrobiomeEng from "../assets/tracks/Microbime-Engineering.webp"
 import Quorum from "../assets/tracks/Quorum.avif"
 
 // export const tracks = [

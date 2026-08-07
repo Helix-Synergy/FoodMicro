@@ -1,10 +1,10 @@
 import React from "react";
 import img1 from "../../assets/VenueImages/img1.webp"
-import img2 from "../../assets/VenueImages/img2.jpeg"
-import img3 from "../../assets/VenueImages/img3.jpeg"
-import img4 from "../../assets/VenueImages/img4.jpeg"
-import img5 from "../../assets/VenueImages/img5.jpeg"
-import img6 from "../../assets/VenueImages/img6.jpeg"
+import img2 from "../../assets/VenueImages/img2.webp"
+import img3 from "../../assets/VenueImages/img3.webp"
+import img4 from "../../assets/VenueImages/img4.webp"
+import img5 from "../../assets/VenueImages/img5.webp"
+import img6 from "../../assets/VenueImages/img6.webp"
 const ImageGalleryCard = () => {
   return (
     <div className="flex flex-col gap-4 p-4">
